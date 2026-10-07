@@ -79,18 +79,18 @@
         },
         {
             "nom": "Yanis B.",
-            "buts": 0,
-            "passes_d": 0
+            "buts": 1,
+            "passes_d": 2
         },
         {
             "nom": "Yvann M.",
             "buts": 0,
-            "passes_d": 0
+            "passes_d": 1
         },
         {
             "nom": "Zakaria Z.",
-            "buts": 0,
-            "passes_d": 0
+            "buts": 2,
+            "passes_d": 1
         }
     ]
 }
