@@ -55,8 +55,6 @@ Le script va générer automatiquement deux fichiers par équipe à la racine du
         ├── match.py
         ├── html_parser.py
         └── formatter.py
----
-
 ## 🧪 Apparté : Tester une feuille de match complète
 
 L'extraction d'une feuille de match est complexe car la structure HTML de la FFF change selon l'état du match (à venir, joué, arrêté). 
