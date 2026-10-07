@@ -1,0 +1,54 @@
+name: Scrape FFF Data
+
+on:
+  # 1. Automatisation : Le script se lancera tous les jours à 8h00 UTC
+  schedule:
+    - cron: '0 8 * * *'
+  
+  # 2. Manuel : Bouton "Run workflow" disponible sur GitHub
+  workflow_dispatch:
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Configuration de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # Étape cruciale : Donner les droits d'exécution à votre start.sh
+      - name: Rendre start.sh exécutable
+        run: chmod +x start.sh
+
+      # Lancement de votre script d'initialisation (crée le venv et installe requirements.txt)
+      - name: Lancement du script d'installation (start.sh)
+        run: ./start.sh
+
+      # Installation spécifique du navigateur Playwright (requis pour Chromium)
+      - name: Installation du navigateur Playwright
+        run: |
+          source venv/bin/activate
+          playwright install chromium
+
+      # Exécution de votre script principal via l'environnement virtuel
+      - name: Execution du scraper
+        run: |
+          source venv/bin/activate
+          python main.py
+
+      # Sauvegarde automatique des nouveaux JSON sur GitHub
+      - name: Commit et Push des modifications JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.json
+          git diff --staged --quiet || git commit -m "chore: mise a jour automatique des donnees fff"
+          git push
