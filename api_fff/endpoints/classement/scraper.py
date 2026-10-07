@@ -8,7 +8,7 @@ def read_classement_from_page(page, club_id, club_name, equipe_id):
     print(f"[classement] Lecture de la page: {url}", flush=True)
     
     try:
-        page.goto(url, wait_until="networkidle", timeout=30000)
+        page.goto(url, wait_until="domcontentloaded", timeout=30000)
         # On attend que le tableau du classement soit chargé dans le DOM
         page.locator('tr[role="row"], tr.cdk-row').first.wait_for(state="attached", timeout=5000)
     except PlaywrightTimeoutError:

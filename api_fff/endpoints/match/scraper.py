@@ -9,7 +9,7 @@ def read_match_from_page(page, url_match):
     print(f"[match] Lecture de la feuille de match: {full_url}", flush=True)
 
     try:
-        page.goto(full_url, wait_until="networkidle", timeout=30000)
+        page.goto(full_url, wait_until="domcontentloaded", timeout=30000)
         
         # Extraction de l'ID du match depuis l'URL pour l'envoyer au parseur
         match_id_search = re.search(r'/match/(\d+)', url_match)

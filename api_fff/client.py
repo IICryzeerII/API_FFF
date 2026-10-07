@@ -6,17 +6,37 @@ from .endpoints.matchs import read_matchs_from_page
 from .endpoints.classement import read_classement_from_page
 
 class API_FFF:
-    # On ne définit plus l'equipe_id dans le constructeur, mais dynamiquement
     def __init__(self, club_id="530273", club_name="parmain-a-c"):
         self.club_id = club_id
         self.club_name = club_name
         self.equipe_id = None
 
         try:
+            # Initialisation Stealth v2 compatible
             self._playwright_manager = Stealth().use_sync(sync_playwright())
             self._playwright = self._playwright_manager.__enter__()
-            self.browser = self._playwright.chromium.launch(headless=True)
-            self.page = self.browser.new_page()
+            
+            # Lancement du navigateur avec arguments anti-bot pour GitHub Actions
+            self.browser = self._playwright.chromium.launch(
+                headless=True,
+                args=[
+                    "--disable-blink-features=AutomationControlled",
+                    "--no-sandbox",
+                    "--disable-setuid-sandbox",
+                    "--disable-infobars",
+                    "--window-size=1920,1080",
+                    "--disable-dev-shm-usage",
+                ]
+            )
+            
+            self.context = self.browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                viewport={"width": 1920, "height": 1080},
+                locale="fr-FR"
+            )
+            
+            self.page = self.context.new_page()
+            
         except Exception as e:
             print("[Erreur Critique] Impossible d'initialiser le navigateur (Vérifiez l'installation de Playwright).")
             raise e

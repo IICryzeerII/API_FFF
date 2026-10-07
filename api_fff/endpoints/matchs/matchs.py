@@ -25,32 +25,33 @@ def read_matchs_from_page(page, club_id, club_name, equipe_id):
     url = f"{BASE_URL}/competition/club/{club_id}-{club_name}/equipe/{equipe_id}/saison"
     print(f"[matchs] Lecture de la page saison: {url}", flush=True)
 
-    page.goto(url, wait_until="networkidle", timeout=30000)
+    page.goto(url, wait_until="domcontentloaded", timeout=30000)
     print("[matchs] Descente approfondie (Recherche de tous les blocs)...", flush=True)
 
     essais_sans_nouveaux = 0
     nb_blocs_precedents = 0
+    max_essais = 6  # On augmente légèrement la persistance pour être sûr de tout charger
     
     # --- PHASE 1 : SCROLL ROBUSTE JUSQU'EN BAS ---
-    while essais_sans_nouveaux < 5:  # On donne un essai de plus par sécurité
+    while essais_sans_nouveaux < max_essais:
+        # Forcer un scroll fluide vers le bas de la fenêtre
+        page.evaluate("window.scrollBy(0, 1000);")
+        page.wait_for_timeout(1000) # Laisser le temps au réseau d'injecter les blocs
+        
         nb_blocs_actuels = page.locator('app-match-score').count()
         
         if nb_blocs_actuels > nb_blocs_precedents:
             essais_sans_nouveaux = 0
             nb_blocs_precedents = nb_blocs_actuels
-        else:
-            essais_sans_nouveaux += 1
-
-        if nb_blocs_actuels > 0:
+            # Scroller le dernier élément visible pour déclencher l'affichage du suivant
             try:
                 page.locator('app-match-score').nth(nb_blocs_actuels - 1).scroll_into_view_if_needed()
             except:
                 pass
-        
-        # Double PageDown pour forcer l'affichage des derniers mois (Avril/Mai)
-        page.keyboard.press("PageDown")
-        page.keyboard.press("PageDown")
-        page.wait_for_timeout(800)
+        else:
+            essais_sans_nouveaux += 1
+            # Secousse supplémentaire pour débloquer les lazy-loads récalcitrants
+            page.keyboard.press("PageDown")
 
     print("[matchs] Fin du calendrier atteinte. Extraction, dédoublonnage et tri...", flush=True)
 
