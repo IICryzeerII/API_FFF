@@ -1,0 +1,10 @@
+{
+    "controle_integrite": {
+        "total_buts_reels": 0,
+        "total_buts_admin": 0,
+        "total_passes_admin": 0,
+        "alerte_incoherence": false,
+        "message": "Tableau à jour."
+    },
+    "joueurs": []
+}

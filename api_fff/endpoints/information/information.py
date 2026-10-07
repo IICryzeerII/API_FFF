@@ -41,7 +41,7 @@ def read_information_from_page(page: Page, club_id: str, club_name: str):
                     "telephone": "06 10 58 28 63"
                 },
                 {
-                    "role": "2nd Coach",
+                    "role": "Coach",
                     "nom": "Lucas",
                     "telephone": "07 83 61 26 05"
                 }

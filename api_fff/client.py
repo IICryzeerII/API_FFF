@@ -5,6 +5,7 @@ from .endpoints.match import read_match_from_page
 from .endpoints.matchs import read_matchs_from_page
 from .endpoints.classement import read_classement_from_page
 from .endpoints.information.information import read_information_from_page
+from .endpoints.stats import generer_statistiques_joueurs
 
 class API_FFF:
     def __init__(self, club_id="530273", club_name="parmain-a-c"):
@@ -103,4 +104,12 @@ class API_FFF:
             return {}
         except Exception as e:
             print(f"\n[Erreur inattendue lors de la récupération des infos] {e}")
+            return {}
+    
+    def statistiques_joueurs(self, nom_equipe, matchs_data, nom_club_cible="PARMAIN"):
+        """Génère les statistiques des joueurs basées sur les matchs récupérés."""
+        try:
+            return generer_statistiques_joueurs(nom_equipe, matchs_data, nom_club_cible)
+        except Exception as e:
+            print(f"\n[Erreur inattendue lors de la génération des statistiques] {e}")
             return {}

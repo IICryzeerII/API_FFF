@@ -11,7 +11,6 @@ EQUIPES = {
 def main():
     print("🚀 Lancement du scraper multi-équipes de la FFF...")
     
-    # Utilisation du client FFF avec gestion du contexte (fermeture auto du navigateur)
     with API_FFF() as api:
         print(f"\n==============================================")
         print(f"🏟️  RÉCUPÉRATION DES INFOS DU CLUB")
@@ -28,10 +27,8 @@ def main():
             print(f"⚽ TRAITEMENT DE LA ÉQUIPE : {nom_equipe.upper()}")
             print(f"==============================================")
             
-            # Définition de l'équipe active
             api.set_equipe(equipe_id)
             
-            # 1. Récupération et sauvegarde du classement
             print(f"[1/3] Récupération du classement...")
             classement_data = api.classement()
             
@@ -40,11 +37,9 @@ def main():
                 json.dump(classement_data, f, ensure_ascii=False, indent=4)
             print(f"✅ {filename_classement} généré avec succès.")
             
-            # 2. Récupération de la liste des matchs
             print(f"[2/3] Récupération de la liste des matchs...")
             matchs_data = api.matchs()
             
-            # 3. Récupération des feuilles de match détaillées via api.match()
             print(f"[3/3] Récupération des feuilles de match détaillées...")
             if "items" in matchs_data:
                 for match_item in matchs_data["items"]:
@@ -53,7 +48,6 @@ def main():
                         print(f"  -> Analyse du match : {match_url}")
                         match_details = api.match(match_url)
                         if match_details:
-                            # Met à jour les informations du match avec les détails de la feuille de match
                             match_item.update(match_details)
             
             filename_matchs = f"matchs_{nom_equipe}.json"
@@ -61,6 +55,17 @@ def main():
             with open(filename_matchs, "w", encoding="utf-8") as f:
                 json.dump(matchs_data, f, ensure_ascii=False, indent=4)
             print(f"✅ {filename_matchs} généré avec succès ({total_matchs} matchs enregistrés).")
+
+            # --- GÉNÉRATION DES STATISTIQUES DES JOUEURS ---
+            print(f"📊 Génération des statistiques des joueurs pour {nom_equipe.upper()}...")
+            stats_data = api.statistiques_joueurs(nom_equipe, matchs_data, nom_club_cible="PARMAIN")
+            
+            filename_stats = f"stats_joueurs_{nom_equipe}.json"
+            with open(filename_stats, "w", encoding="utf-8") as f:
+                json.dump(stats_data, f, ensure_ascii=False, indent=4)
+            
+            alerte = stats_data.get("controle_integrite", {}).get("alerte_incoherence", False)
+            print(f"✅ {filename_stats} généré avec succès. (Alerte Admin : {alerte})")
 
     print("\n🎉 Toutes les équipes ont été traitées ! L'application mobile est à jour.")
 
