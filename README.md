@@ -47,15 +47,14 @@ Le script va générer automatiquement deux fichiers par équipe à la racine du
 
 📁 projet/
 ├── main.py                  # Orchestrateur principal (boucle sur les équipes)
-├── 📁 api_fff/
-│   ├── client.py            # Classe API_FFF gérant le navigateur Playwright
-│   └── 📁 endpoints/
-│       ├── classement.py    # Extraction du tableau de classement
-│       ├── matchs.py        # Extraction de la liste des matchs (scroll)
-│       ├── match.py         # Routage d'une feuille de match
-│       ├── html_parser.py   # Le "cerveau" : Parse le DOM (compos, timeline, score)
-│       └── formatter.py     # Structure les données extraites en JSON final propre
-
+└── 📁 api_fff/
+    ├── client.py            # Classe API_FFF gérant le navigateur Playwright
+    └── 📁 endpoints/
+        ├── classement.py    # Extraction du tableau de classement
+        ├── matchs.py        # Extraction de la liste des matchs (scroll)
+        ├── match.py         # Routage d'une feuille de match
+        ├── html_parser.py   # Le "cerveau" : Parse le DOM (compos, timeline, score)
+        └── formatter.py     # Structure les données extraites en JSON final propre
 ---
 
 ## 🧪 Apparté : Tester une feuille de match complète
