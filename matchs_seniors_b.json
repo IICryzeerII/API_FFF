@@ -11,6 +11,7 @@
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
             "statut": "joué",
             "lieu": "STADE GEORGES GALOIS 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=RUE+BERNARD+ASTRUC%2C95180+MENUCOURT",
             "moments_forts": [],
             "joueurs_a": [],
             "joueurs_b": []
@@ -26,6 +27,7 @@
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
             "statut": "joué",
             "lieu": "STADE MUNICIPAL",
+            "lieu_lien_carte": "http://maps.apple.com/?address=BOULEVARD+GAMBETTA%2C95640+MARINES",
             "moments_forts": [],
             "joueurs_a": [],
             "joueurs_b": []
@@ -42,6 +44,7 @@
             "statut": "à venir",
             "date": "2026-10-18T15:00:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -57,6 +60,7 @@
             "statut": "à venir",
             "date": "2026-10-25T14:30:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -72,6 +76,7 @@
             "statut": "à venir",
             "date": "2026-11-01T15:00:00",
             "lieu": "STADE MUNICIPAL 2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=RUE+DU+GENERAL+DE+GAULLE%2C95480+PIERRELAYE",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -87,6 +92,7 @@
             "statut": "à venir",
             "date": "2026-11-15T15:00:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -102,6 +108,7 @@
             "statut": "à venir",
             "date": "2026-11-22T15:00:00",
             "lieu": "STADE EUGÈNE COGNEVAULT 1 - J. P. PAPIN",
+            "lieu_lien_carte": "http://maps.apple.com/?address=23+BIS%2C+RUE+CLARET%2CTERRAIN+ANNEXE+N%C2%B01%2C95500+GONESSE",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -117,6 +124,7 @@
             "statut": "à venir",
             "date": "2026-11-29T15:00:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -132,6 +140,7 @@
             "statut": "à venir",
             "date": null,
             "lieu": "STADE PAUL CHERON 2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=RUE+PHILIPPE+CHEVALIER%2C95420+MAGNY+EN+VEXIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -147,6 +156,7 @@
             "statut": "à venir",
             "date": null,
             "lieu": "STADE GEORGES GLATIGNY 2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=29+RUE+PASTEUR%2C95390+ST+PRIX",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -162,6 +172,7 @@
             "statut": "à venir",
             "date": "2027-01-17T15:00:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -177,6 +188,7 @@
             "statut": "à venir",
             "date": "2027-01-24T14:30:00",
             "lieu": "COMPLEXE SPORTIF ANDRE MALRAUX",
+            "lieu_lien_carte": "http://maps.apple.com/?address=ROUTE+DE+MARLY%2CSTADE+LUIGI+PALEMBO%2C95380+PUISEUX+EN+FRANCE",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -192,6 +204,7 @@
             "statut": "à venir",
             "date": "2027-01-31T15:00:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -207,6 +220,7 @@
             "statut": "à venir",
             "date": null,
             "lieu": "STADE GEORGES GALOIS 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=RUE+BERNARD+ASTRUC%2C95180+MENUCOURT",
             "joueurs_a": [],
             "joueurs_b": []
         }

@@ -40,7 +40,7 @@ def extraire_infos_match_complet(match_data):
                 "nom": j.get("nom") or j.get("libelle"),
                 "maillot": j.get("maillot") or j.get("numero"),
                 "role": j.get("role", "titulaire"),
-                "evenements": j.get("evenements", []) # Ex: buts, cartons, remplacements
+                "evenements": j.get("evenements", [])
             })
         return liste
 
@@ -53,7 +53,8 @@ def extraire_infos_match_complet(match_data):
         "logo_b": exterieur.get("logo_url") or exterieur.get("logo"),
         "statut": match_data.get("statut") or match_data.get("maStatutLib"),
         "lieu": match_data.get("stade") or match_data.get("lieu"),
-        "moments_forts": match_data.get("evenements", []), # Redirection vers la timeline globale extraite
+        "lieu_lien_carte": match_data.get("stade_lien_carte"),
+        "moments_forts": match_data.get("evenements", []),
         "joueurs_a": formater_joueurs(domicile.get("joueurs", [])),
         "joueurs_b": formater_joueurs(exterieur.get("joueurs", []))
     }
@@ -73,6 +74,7 @@ def extraire_infos_match_a_venir(match_data):
         "statut": match_data.get("statut"),
         "date": convertir_date_fr(match_data.get("date")),
         "lieu": match_data.get("stade"),
+        "lieu_lien_carte": match_data.get("stade_lien_carte"),
         "joueurs_a": [],
         "joueurs_b": []
     }
@@ -83,7 +85,6 @@ def formater_donnees_match(match_data):
     score_data = match_data.get("score") or {}
     joueurs_domicile = match_data.get("domicile", {}).get("joueurs", [])
     
-    # On considère que le match a des infos détaillées s'il est joué, arrêté, ou s'il y a un score/compo
     mots_cles_fin = ["joué", "arret", "arrêté", "reporté", "forfait", "annulé"]
     est_concerne = any(mot in statut for mot in mots_cles_fin) or (score_data.get("domicile") is not None) or (len(joueurs_domicile) > 0)
     

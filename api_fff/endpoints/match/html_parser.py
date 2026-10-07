@@ -1,4 +1,5 @@
 import re
+import urllib.parse
 from .formatter import formater_donnees_match
 
 def parse_match_html(page, page_url, match_id):
@@ -87,7 +88,6 @@ def parse_match_html(page, page_url, match_id):
                     if len(cellules) >= 2:
                         maillot = " ".join(cellules[0].inner_text().split())
                         nom = " ".join(cellules[1].inner_text().split())
-                        # Initialisation de la liste des événements qui sera remplie à l'étape 4.5
                         joueurs_liste.append({"nom": nom, "maillot": maillot, "role": role, "evenements": []})
         else:
              lignes_joueurs = bloc.locator(".player-row, mat-list-item, .d-flex.align-items-center").all()
@@ -132,7 +132,6 @@ def parse_match_html(page, page_url, match_id):
             type_evt = "autre"
             joueur = ""
             
-            # Nettoyage chirurgical pour isoler les noms
             if "Changement" in texte_ligne:
                 type_evt = "changement"
                 changement_match = re.search(r'(.+)\s+remplace\s+(.+)', texte_ligne, re.IGNORECASE)
@@ -201,8 +200,9 @@ def parse_match_html(page, page_url, match_id):
     except:
         pass
 
-    # --- 6. EXTRACTION DU STADE ---
+    # --- 6. EXTRACTION DU STADE ET DU LIEN DE CARTE (AVEC ENCODAGE URL PROPRE) ---
     stade_match = None
+    stade_lien_carte = None
     try:
         titre_lieu = page.get_by_text("LIEU DE LA RENCONTRE").first
         if titre_lieu.count():
@@ -216,6 +216,21 @@ def parse_match_html(page, page_url, match_id):
             stade_fallback = page.locator("app-match-installation .fw-bold, .installation-name").first
             if stade_fallback.count():
                 stade_match = stade_fallback.inner_text().strip()
+
+        lieu_container = page.locator("app-resume, .lieu-match, .installations-container").first
+        if lieu_container.count():
+            lien_elem = lieu_container.locator("a[href*='address='], a[href*='maps']").first
+            if lien_elem.count():
+                raw_href = lien_elem.get_attribute("href")
+                if raw_href:
+                    # Sécurisation et encodage correct des espaces pour que le lien soit 100% cliquable
+                    if "?" in raw_href:
+                        base_url, query_str = raw_href.split("?", 1)
+                        # On ré-encode proprement les paramètres pour éviter les espaces non gérés
+                        parsed_params = urllib.parse.parse_qsl(query_str, keep_blank_values=True)
+                        stade_lien_carte = f"{base_url}?" + urllib.parse.urlencode(parsed_params)
+                    else:
+                        stade_lien_carte = raw_href
     except:
         pass
 
@@ -237,6 +252,7 @@ def parse_match_html(page, page_url, match_id):
         "match_fait": joue,
         "date": date_match,
         "stade": stade_match,
+        "stade_lien_carte": stade_lien_carte,
         "score": score_dict,
         "domicile": domicile,
         "exterieur": exterieur,
@@ -246,5 +262,5 @@ def parse_match_html(page, page_url, match_id):
     
     donnees_formatees = formater_donnees_match(result)
     
-    print(f"[match] statut={statut} | Score detecté: {score_dict} | Logos: {len(logos_urls)} | Événements croisés avec succès.", flush=True)
+    print(f"[match] statut={statut} | Stade: {stade_match} | Lien carte encodé: {bool(stade_lien_carte)}", flush=True)
     return donnees_formatees

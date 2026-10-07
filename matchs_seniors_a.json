@@ -12,6 +12,7 @@
             "statut": "à venir",
             "date": "2026-10-18T15:30:00",
             "lieu": "STADE AUGUSTE DELAUNE",
+            "lieu_lien_carte": "http://maps.apple.com/?address=RUE+DU+G.D.+TREMBLAY%2C95470+FOSSES",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -27,6 +28,7 @@
             "statut": "à venir",
             "date": "2026-10-25T15:30:00",
             "lieu": "STADE DU COSEC 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=31+RUE+EMILE+COMBRES%2C95560+MONTSOULT",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -42,6 +44,7 @@
             "statut": "à venir",
             "date": "2026-11-01T15:00:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -56,6 +59,7 @@
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC563529.jpg",
             "statut": "à venir",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "moments_forts": [],
             "joueurs_a": [
                 {
@@ -236,6 +240,7 @@
             "statut": "à venir",
             "date": "2026-11-15T15:00:00",
             "lieu": "STADE PIERRE DE COUBERTIN N°2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AVENUE+FREDERIC+JOLIOT+CURIE%2CTERRAIN+ANNEXE+1%2C95140+GARGES+LES+GONESSE",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -251,6 +256,7 @@
             "statut": "à venir",
             "date": "2026-11-22T15:00:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -266,6 +272,7 @@
             "statut": "à venir",
             "date": "2026-11-29T16:00:00",
             "lieu": "STADE INTERCOMMUNAL JEAN BOUIN 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=5+RUE+JEAN+BOUIN%2C95170+DEUIL+LA+BARRE",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -281,6 +288,7 @@
             "statut": "à venir",
             "date": null,
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -296,6 +304,7 @@
             "statut": "à venir",
             "date": "2027-01-17T15:00:00",
             "lieu": "STADE MUNICIPAL 2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=25+CHEMIN+DE+ST+DENIS%2C95500+LE+THILLAY",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -311,6 +320,7 @@
             "statut": "à venir",
             "date": "2027-01-24T15:00:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -326,6 +336,7 @@
             "statut": "à venir",
             "date": "2027-01-31T15:00:00",
             "lieu": "PARC DES SPORTS N° 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=40+AVENUE+AUGUSTE+BLANQUI%2C95490+VAUREAL",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -341,6 +352,7 @@
             "statut": "à venir",
             "date": null,
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -356,6 +368,7 @@
             "statut": "à venir",
             "date": "2027-03-07T15:30:00",
             "lieu": "STADE DES BEAUREGARDS 3",
+            "lieu_lien_carte": "http://maps.apple.com/?address=+ROUTE+DE+PIERRELAYE%2CTERRAIN+ANNEXE+A2%2C95220+HERBLAY+SUR+SEINE",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -371,6 +384,7 @@
             "statut": "à venir",
             "date": "2027-03-14T15:00:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -386,6 +400,7 @@
             "statut": "à venir",
             "date": "2027-03-21T16:00:00",
             "lieu": "STADE GILLES DEGENÉVE N°2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=+AVENUE+DU+PRESIDENT+WILSON%2C95260+BEAUMONT+SUR+OISE",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -401,6 +416,7 @@
             "statut": "à venir",
             "date": "2027-05-23T15:00:00",
             "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
             "joueurs_a": [],
             "joueurs_b": []
         },
@@ -416,6 +432,7 @@
             "statut": "à venir",
             "date": "2027-05-30T15:00:00",
             "lieu": "STADE MUNICIPAL",
+            "lieu_lien_carte": "http://maps.apple.com/?address=BOULEVARD+GAMBETTA%2C95640+MARINES",
             "joueurs_a": [],
             "joueurs_b": []
         }
