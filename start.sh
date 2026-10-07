@@ -2,24 +2,37 @@
 
 VENV_NAME="venv"
 
-# 1. Créer l'environnement virtuel s'il n'existe pas
-if [ ! -d "$VENV_NAME" ]; then
-    echo "Création de l'environnement virtuel '$VENV_NAME'..."
-    python3 -m venv $VENV_NAME
+# Si le venv existe mais pointe vers un mauvais chemin ou est cassé, on le supprime sans pitié
+if [ -d "$VENV_NAME" ]; then
+    echo "Nettoyage de l'ancien environnement virtuel..."
+    rm -rf $VENV_NAME
 fi
 
-# 2. Activer l'environnement virtuel
+# 1. Créer un environnement virtuel tout neuf et propre
+echo "Création de l'environnement virtuel '$VENV_NAME'..."
+python3 -m venv $VENV_NAME
+
+# 2. Activer l'environnement
 echo "Activation de l'environnement..."
 source $VENV_NAME/bin/activate
 
-# 3. Installer les dépendances
+# 3. Utiliser le pip du venv nouvellement créé
+VENV_PIP="./$VENV_NAME/bin/pip"
+
+# S'assurer que pip existe dans ce venv frais
+if [ ! -f "$VENV_PIP" ]; then
+    echo "Installation de pip dans le venv..."
+    python3 -m ensurepip --default-pip
+fi
+
+# 4. Installer les dépendances
 if [ -f "requirements.txt" ]; then
     echo "Mise à jour de pip..."
-    pip install --upgrade pip
+    $VENV_PIP install --upgrade pip
     echo "Installation des dépendances depuis requirements.txt..."
-    pip install -r requirements.txt
+    $VENV_PIP install -r requirements.txt
 else
     echo "⚠️ Aucun fichier requirements.txt trouvé dans le dossier actuel."
 fi
 
-echo "✅ Terminé ! Vous êtes maintenant dans l'environnement virtuel."
+echo "✅ Terminé ! Tout est installé proprement dans le venv."
