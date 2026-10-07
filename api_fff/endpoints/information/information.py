@@ -1,4 +1,5 @@
 import json
+import urllib.parse
 from playwright.sync_api import Page, Error as PlaywrightError
 
 BASE_URL = "https://epreuves.fff.fr"
@@ -7,7 +8,7 @@ def read_information_from_page(page: Page, club_id: str, club_name: str):
     url = f"{BASE_URL}/competition/club/{club_id}-{club_name}/informations"
     print(f"[information] Lecture de la page: {url}", flush=True)
 
-    # Squelette JSON final sans le champ "fondation"
+    # Squelette JSON ultra-propre selon tes critères
     infos_club_data = {
         "identite": {
             "nom": "", 
@@ -21,7 +22,8 @@ def read_information_from_page(page: Page, club_id: str, club_name: str):
         },
         "installation": {
             "nom": "Jacques Hunaut 1",
-            "description": "Stade d'entraînement"
+            "description": "Stade d'entraînement",
+            "lien_maps": ""
         },
         "staff": {
             "bureau": {
@@ -84,6 +86,22 @@ def read_information_from_page(page: Page, club_id: str, club_name: str):
                     if "Téléphone" in c.get("type", "") or c.get("code") == "TA":
                         infos_club_data["contact_club"]["telephone"] = c.get("valeur", "")
                 
+                # --- INSTALLATION (Génération du lien Apple Maps "Propre") ---
+                installations = club_api_data.get("installations", [])
+                if installations:
+                    # On cible l'installation Jacques Hunaut 1 si possible
+                    installation_cible = next((inst for inst in installations if "HUNAUT" in inst.get("nom", "").upper()), installations[0])
+                    
+                    adresse_parts = installation_cible.get("adresse", [])
+                    # La FFF sépare les lignes d'adresse par une virgule pour générer son lien Apple Maps
+                    adresse_complete = ",".join(adresse_parts) 
+                    
+                    if adresse_complete:
+                        # On encode l'URL proprement (remplace les espaces par %20 et les virgules par %2C)
+                        adresse_encodee = urllib.parse.quote(adresse_complete)
+                        infos_club_data["installation"]["lien_maps"] = f"http://maps.apple.com/?address={adresse_encodee}"
+                        infos_club_data["installation"]["nom"] = installation_cible.get("nom", "Jacques Hunaut 1")
+
                 # --- STAFF (BUREAU) ---
                 membres = club_api_data.get("membres", [])
                 for membre in membres:
@@ -92,7 +110,7 @@ def read_information_from_page(page: Page, club_id: str, club_name: str):
                     
                     if titre == "PRESIDENT":
                         infos_club_data["staff"]["bureau"]["president"]["nom"] = nom_complet
-                        # Récupération spécifique des contacts du président (Alain)
+                        # Récupération spécifique des contacts du président
                         for contact in membre.get("contacts", []):
                             type_contact = contact.get("type", "")
                             valeur = contact.get("valeur", "")
@@ -103,7 +121,6 @@ def read_information_from_page(page: Page, club_id: str, club_name: str):
                                 infos_club_data["staff"]["bureau"]["president"]["telephone"] = valeur
                                 
                     elif titre == "VICE PRESIDENT":
-                        # Pour le vice-président on garde une simple string selon ton exemple
                         infos_club_data["staff"]["bureau"]["vice_president"] = nom_complet
 
     except PlaywrightError as e:
