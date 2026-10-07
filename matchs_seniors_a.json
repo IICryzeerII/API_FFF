@@ -1,15 +1,60 @@
 {
     "items": [
         {
+            "url": "/competition/match/56532827-fosses-f-u-parmain-a-c",
+            "texte": "dim 18 oct 2026 - 15h30 Seniors Départemental 4 - Senior Journée 2 FOSSES F. U. 2 15:30 PARMAIN AC",
+            "nom_equipe_a": "FOSSES F. U. 2",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC542402.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2026-10-18T15:30:00",
+            "lieu": "STADE AUGUSTE DELAUNE",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79757039-montsoult-baillet-us-parmain-a-c",
+            "texte": "dim 25 oct 2026 - 15h30 Coupe du Val-d'Oise CM Seniors Coutelier - Senior Deuxième tour MONTSOULT BAILLET US 15:30 PARMAIN AC",
+            "nom_equipe_a": "MONTSOULT BAILLET US",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC522868.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2026-10-25T15:30:00",
+            "lieu": "STADE DU COSEC 1",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532832-parmain-a-c-vaureal-f-c-m",
+            "texte": "DIM 01 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 3 PARMAIN AC 15:00 VAUREAL F. C. M. 3",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "VAUREAL F. C. M. 3",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC538505.jpg",
+            "statut": "à venir",
+            "date": "2026-11-01T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
             "url": "/competition/match/56532820-parmain-a-c-vexin-a-s",
-            "texte": "dim 04 oct 2026 - 15h00 Seniors Départemental 4 - Senior Journée 1 PARMAIN AC arrêté VEXIN A.S.",
+            "texte": "DIM 15 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 1 PARMAIN AC 15:00 VEXIN A.S.",
             "nom_equipe_a": "PARMAIN AC",
             "nom_equipe_b": "VEXIN A.S.",
             "score_a": null,
             "score_b": null,
             "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC563529.jpg",
-            "statut": "ARRÊTÉ",
+            "statut": "à venir",
             "lieu": "STADE JACQUES HUNAUT 1",
             "moments_forts": [],
             "joueurs_a": [
@@ -180,51 +225,6 @@
             ]
         },
         {
-            "url": "/competition/match/56532827-fosses-f-u-parmain-a-c",
-            "texte": "dim 18 oct 2026 - 15h30 Seniors Départemental 4 - Senior Journée 2 FOSSES F. U. 2 15:30 PARMAIN AC",
-            "nom_equipe_a": "FOSSES F. U. 2",
-            "nom_equipe_b": "PARMAIN AC",
-            "score_a": null,
-            "score_b": null,
-            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC542402.jpg",
-            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
-            "statut": "à venir",
-            "date": "2026-10-18T15:30:00",
-            "lieu": "STADE AUGUSTE DELAUNE",
-            "joueurs_a": [],
-            "joueurs_b": []
-        },
-        {
-            "url": "/competition/match/79757039-montsoult-baillet-us-parmain-a-c",
-            "texte": "dim 25 oct 2026 - 15h30 Coupe du Val-d'Oise CM Seniors Coutelier - Senior Deuxième tour MONTSOULT BAILLET US 15:30 PARMAIN AC",
-            "nom_equipe_a": "MONTSOULT BAILLET US",
-            "nom_equipe_b": "PARMAIN AC",
-            "score_a": null,
-            "score_b": null,
-            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC522868.jpg",
-            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
-            "statut": "à venir",
-            "date": "2026-10-25T15:30:00",
-            "lieu": "STADE DU COSEC 1",
-            "joueurs_a": [],
-            "joueurs_b": []
-        },
-        {
-            "url": "/competition/match/56532832-parmain-a-c-vaureal-f-c-m",
-            "texte": "DIM 01 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 3 PARMAIN AC 15:00 VAUREAL F. C. M. 3",
-            "nom_equipe_a": "PARMAIN AC",
-            "nom_equipe_b": "VAUREAL F. C. M. 3",
-            "score_a": null,
-            "score_b": null,
-            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
-            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC538505.jpg",
-            "statut": "à venir",
-            "date": "2026-11-01T15:00:00",
-            "lieu": "STADE JACQUES HUNAUT 1",
-            "joueurs_a": [],
-            "joueurs_b": []
-        },
-        {
             "url": "/competition/match/56532837-garges-les-gonesse-f-c-m-parmain-a-c",
             "texte": "DIM 15 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 4 GARGES GONESSE FCM 3 15:00 PARMAIN AC",
             "nom_equipe_a": "GARGES GONESSE FCM 3",
@@ -388,37 +388,7 @@
             "lieu": "STADE GILLES DEGENÉVE N°2",
             "joueurs_a": [],
             "joueurs_b": []
-        },
-        {
-            "url": "/competition/match/56532900-parmain-a-c-thillay-vaud-herland-ent-s-mun",
-            "texte": "DIM 23 MAI 2027 - 15H00 Seniors Départemental 4 - Senior Journée 17 PARMAIN AC 15:00 THILLAY VAUD'HERLAND 2",
-            "nom_equipe_a": "PARMAIN AC",
-            "nom_equipe_b": "THILLAY VAUD'HERLAND 2",
-            "score_a": null,
-            "score_b": null,
-            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
-            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC519763.jpg",
-            "statut": "à venir",
-            "date": "2027-05-23T15:00:00",
-            "lieu": "STADE JACQUES HUNAUT 1",
-            "joueurs_a": [],
-            "joueurs_b": []
-        },
-        {
-            "url": "/competition/match/56532905-vexin-a-s-parmain-a-c",
-            "texte": "DIM 30 MAI 2027 - 15H00 Seniors Départemental 4 - Senior Journée 18 VEXIN A.S. 15:00 PARMAIN AC",
-            "nom_equipe_a": "VEXIN A.S.",
-            "nom_equipe_b": "PARMAIN AC",
-            "score_a": null,
-            "score_b": null,
-            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC563529.jpg",
-            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
-            "statut": "à venir",
-            "date": "2027-05-30T15:00:00",
-            "lieu": "STADE MUNICIPAL",
-            "joueurs_a": [],
-            "joueurs_b": []
         }
     ],
-    "totalItems": 17
+    "totalItems": 15
 }
