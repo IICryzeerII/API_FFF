@@ -1,0 +1,1 @@
+from .scraper import read_classement_from_page
