@@ -1,7 +1,7 @@
 import json
 from api_fff.client import API_FFF
 
-# Configuration des équipes avec leurs identifiants FFF d'après le README[cite: 4]
+# Configuration des équipes avec leurs identifiants FFF d'après le README
 EQUIPES = {
     "seniors_a": "2026_13474_SEM_1",
     "seniors_b": "2026_13474_SEM_2",
@@ -13,6 +13,16 @@ def main():
     
     # Utilisation du client FFF avec gestion du contexte (fermeture auto du navigateur)
     with API_FFF() as api:
+        print(f"\n==============================================")
+        print(f"🏟️  RÉCUPÉRATION DES INFOS DU CLUB")
+        print(f"==============================================")
+        
+        infos_data = api.information()
+        filename_infos = "infos_club.json"
+        with open(filename_infos, "w", encoding="utf-8") as f:
+            json.dump(infos_data, f, ensure_ascii=False, indent=4)
+        print(f"✅ {filename_infos} généré avec succès.")
+
         for nom_equipe, equipe_id in EQUIPES.items():
             print(f"\n==============================================")
             print(f"⚽ TRAITEMENT DE LA ÉQUIPE : {nom_equipe.upper()}")

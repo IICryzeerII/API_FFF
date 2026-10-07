@@ -4,6 +4,7 @@ from playwright_stealth import Stealth
 from .endpoints.match import read_match_from_page
 from .endpoints.matchs import read_matchs_from_page
 from .endpoints.classement import read_classement_from_page
+from .endpoints.information.information import read_information_from_page
 
 class API_FFF:
     def __init__(self, club_id="530273", club_name="parmain-a-c"):
@@ -93,3 +94,13 @@ class API_FFF:
         except PlaywrightError:
             print("\n[Erreur de connexion] Impossible de récupérer le classement.")
             return {"items": [], "totalItems": 0}
+    
+    def information(self):
+        try:
+            return read_information_from_page(self.page, self.club_id, self.club_name)
+        except PlaywrightError:
+            print("\n[Erreur de connexion] Impossible de récupérer les informations du club.")
+            return {}
+        except Exception as e:
+            print(f"\n[Erreur inattendue lors de la récupération des infos] {e}")
+            return {}

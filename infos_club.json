@@ -1,0 +1,38 @@
+{
+    "identite": {
+        "nom": "PARMAIN A.C.",
+        "numero_affiliation": "530273",
+        "ligue": "PARIS IDF",
+        "district": "DVOF"
+    },
+    "contact_club": {
+        "email": "530273@lpiff.fr",
+        "telephone": "06 60 14 66 64"
+    },
+    "installation": {
+        "nom": "Jacques Hunaut 1",
+        "description": "Stade d'entraînement"
+    },
+    "staff": {
+        "bureau": {
+            "president": {
+                "nom": "ALAIN WAMBECKE",
+                "email": "wambeckealain@orange.fr",
+                "telephone": "0660146664"
+            },
+            "vice_president": "JEAN PAUL DE MOURA"
+        },
+        "seniors": [
+            {
+                "role": "Coach",
+                "nom": "Jerome",
+                "telephone": "06 10 58 28 63"
+            },
+            {
+                "role": "2nd Coach",
+                "nom": "Lucas",
+                "telephone": "07 83 61 26 05"
+            }
+        ]
+    }
+}
