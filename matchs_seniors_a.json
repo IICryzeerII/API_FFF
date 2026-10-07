@@ -388,7 +388,37 @@
             "lieu": "STADE GILLES DEGENÉVE N°2",
             "joueurs_a": [],
             "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532900-parmain-a-c-thillay-vaud-herland-ent-s-mun",
+            "texte": "DIM 23 MAI 2027 - 15H00 Seniors Départemental 4 - Senior Journée 17 PARMAIN AC 15:00 THILLAY VAUD'HERLAND 2",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "THILLAY VAUD'HERLAND 2",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC519763.jpg",
+            "statut": "à venir",
+            "date": "2027-05-23T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532905-vexin-a-s-parmain-a-c",
+            "texte": "DIM 30 MAI 2027 - 15H00 Seniors Départemental 4 - Senior Journée 18 VEXIN A.S. 15:00 PARMAIN AC",
+            "nom_equipe_a": "VEXIN A.S.",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC563529.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-05-30T15:00:00",
+            "lieu": "STADE MUNICIPAL",
+            "joueurs_a": [],
+            "joueurs_b": []
         }
     ],
-    "totalItems": 15
+    "totalItems": 17
 }
