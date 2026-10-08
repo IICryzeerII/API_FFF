@@ -76,7 +76,7 @@
             "statut": "à venir",
             "date": "2026-11-01T15:00:00",
             "lieu": "STADE MUNICIPAL 2",
-            "lieu_lien_carte": null,
+            "lieu_lien_carte": "http://maps.apple.com/?address=RUE+DU+GENERAL+DE+GAULLE%2C95480+PIERRELAYE",
             "joueurs_a": [],
             "joueurs_b": []
         },
