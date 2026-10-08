@@ -17,7 +17,7 @@ def main():
         print(f"==============================================")
         
         infos_data = api.information()
-        filename_infos = "infos_club.json"
+        filename_infos = "jsons/infos_club.json"
         with open(filename_infos, "w", encoding="utf-8") as f:
             json.dump(infos_data, f, ensure_ascii=False, indent=4)
         print(f"✅ {filename_infos} généré avec succès.")
@@ -32,7 +32,7 @@ def main():
             print(f"[1/3] Récupération du classement...")
             classement_data = api.classement()
             
-            filename_classement = f"classement_{nom_equipe}.json"
+            filename_classement = f"jsons/classement_{nom_equipe}.json"
             with open(filename_classement, "w", encoding="utf-8") as f:
                 json.dump(classement_data, f, ensure_ascii=False, indent=4)
             print(f"✅ {filename_classement} généré avec succès.")
@@ -50,7 +50,7 @@ def main():
                         if match_details:
                             match_item.update(match_details)
             
-            filename_matchs = f"matchs_{nom_equipe}.json"
+            filename_matchs = f"jsons/matchs_{nom_equipe}.json"
             total_matchs = len(matchs_data.get("items", []))
             with open(filename_matchs, "w", encoding="utf-8") as f:
                 json.dump(matchs_data, f, ensure_ascii=False, indent=4)
@@ -60,7 +60,7 @@ def main():
             print(f"📊 Génération des statistiques des joueurs pour {nom_equipe.upper()}...")
             stats_data = api.statistiques_joueurs(nom_equipe, matchs_data, nom_club_cible="PARMAIN")
             
-            filename_stats = f"stats_joueurs_{nom_equipe}.json"
+            filename_stats = f"jsons/stats_joueurs_{nom_equipe}.json"
             with open(filename_stats, "w", encoding="utf-8") as f:
                 json.dump(stats_data, f, ensure_ascii=False, indent=4)
             
