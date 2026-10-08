@@ -1,27 +1,27 @@
 {
     "identite": {
-        "nom": "PARMAIN A.C.",
-        "numero_affiliation": "530273",
-        "ligue": "PARIS IDF",
-        "district": "DVOF"
+        "nom": "",
+        "numero_affiliation": "",
+        "ligue": "",
+        "district": ""
     },
     "contact_club": {
-        "email": "530273@lpiff.fr",
-        "telephone": "06 60 14 66 64"
+        "email": "",
+        "telephone": ""
     },
     "installation": {
-        "nom": "STADE JACQUES HUNAUT 1",
+        "nom": "Jacques Hunaut 1",
         "description": "Stade d'entraînement",
-        "lien_maps": "http://maps.apple.com/?address=AV%20DES%20PEUPLIERS%2C95620%20PARMAIN"
+        "lien_maps": ""
     },
     "staff": {
         "bureau": {
             "president": {
-                "nom": "ALAIN WAMBECKE",
-                "email": "wambeckealain@orange.fr",
-                "telephone": "0660146664"
+                "nom": "Non renseigné",
+                "email": "",
+                "telephone": ""
             },
-            "vice_president": "JEAN PAUL DE MOURA"
+            "vice_president": "Non renseigné"
         },
         "seniors": [
             {
