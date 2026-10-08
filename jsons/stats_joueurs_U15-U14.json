@@ -2,7 +2,7 @@
     "controle_integrite": {
         "total_buts_reels": 3,
         "total_buts_admin": 3,
-        "total_passes_admin": 3,
+        "total_passes_admin": 2,
         "alerte_incoherence": false,
         "message": "Tableau à jour."
     },
@@ -79,18 +79,18 @@
         },
         {
             "nom": "Yanis B.",
-            "buts": 1,
+            "buts": 0,
             "passes_d": 1
         },
         {
             "nom": "Yvann M.",
-            "buts": 0,
+            "buts": 1,
             "passes_d": 1
         },
         {
             "nom": "Zakaria Z.",
             "buts": 2,
-            "passes_d": 1
+            "passes_d": 0
         }
     ]
 }

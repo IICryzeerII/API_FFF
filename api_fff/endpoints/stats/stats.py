@@ -11,7 +11,10 @@ def formater_nom_joueur(nom_complet):
     return nom_complet.capitalize()
 
 def generer_statistiques_joueurs(nom_equipe: str, matchs_data: dict, nom_club_cible: str = "PARMAIN"):
-    fichier_stats = f"stats_joueurs_{nom_equipe}.json"
+    # On pointe vers le dossier jsons/
+    dossier_jsons = "jsons"
+    os.makedirs(dossier_jsons, exist_ok=True)
+    fichier_stats = os.path.join(dossier_jsons, f"stats_joueurs_{nom_equipe}.json")
     
     total_buts_reels = 0
     joueurs_extraits = set()
@@ -48,7 +51,7 @@ def generer_statistiques_joueurs(nom_equipe: str, matchs_data: dict, nom_club_ci
                 if "Anonyme" not in nom_brut:
                     joueurs_extraits.add(formater_nom_joueur(nom_brut))
 
-    # 2. Récupération des stats déjà gérées par l'admin
+    # 2. Récupération des stats déjà gérées par l'admin dans le dossier jsons/
     stats_existantes = {}
     if os.path.exists(fichier_stats):
         with open(fichier_stats, "r", encoding="utf-8") as f:
@@ -76,8 +79,8 @@ def generer_statistiques_joueurs(nom_equipe: str, matchs_data: dict, nom_club_ci
         total_buts_admin += int(joueur.get("buts", 0))
         total_passes_admin += int(joueur.get("passes_d", 0))
         
-    # Contrôle d'intégrité (Vérification des ratios)
-    alerte_incoherence = (total_buts_admin != total_buts_reels) or (total_passes_admin != total_buts_reels)
+    # Contrôle d'intégrité
+    alerte_incoherence = (total_buts_admin != total_buts_reels) or (total_passes_admin > total_buts_admin)
     
     json_final = {
         "controle_integrite": {
@@ -85,7 +88,7 @@ def generer_statistiques_joueurs(nom_equipe: str, matchs_data: dict, nom_club_ci
             "total_buts_admin": total_buts_admin,
             "total_passes_admin": total_passes_admin,
             "alerte_incoherence": alerte_incoherence,
-            "message": "ATTENTION : Le tableau des buteurs/passeurs n'est pas à jour par rapport aux scores réels !" if alerte_incoherence else "Tableau à jour."
+            "message": "ATTENTION : Le total des buts ne correspond pas aux scores FFF (ou trop de passes décisives) !" if alerte_incoherence else "Tableau à jour."
         },
         "joueurs": joueurs_finaux
     }
