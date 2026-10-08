@@ -1,4 +1,932 @@
 {
-    "items": [],
-    "totalItems": 0
+    "items": [
+        {
+            "url": "/competition/match/79500854-auvers-ennery-f-c-parmain-a-c",
+            "texte": "SAM 19 SEP 2026 - 15H00 U14 D5 - U15 - U14 Journée 1 AUVERS-ENNERY FC 0 2 PARMAIN AC",
+            "nom_equipe_a": "AUVERS-ENNERY FC",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": 0,
+            "score_b": 2,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC510501.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "joué",
+            "lieu": "STADE MUNICIPAL",
+            "lieu_lien_carte": "http://maps.apple.com/?address=CHEMIN+D%27UNE+RUELLE+A+L%27AUTRE%2C95300+ENNERY",
+            "moments_forts": [],
+            "joueurs_a": [
+                {
+                    "nom": "LOWAN G.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LEWIS C.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "CHARLIE E.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ENZO M.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ROMEO N.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MATHIS A.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "NAEL D.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MATEO S.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "RAPHAEL D.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "HUGO C.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "IYYES O.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "BASILE B.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": []
+                },
+                {
+                    "nom": "ADHEM M.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": []
+                },
+                {
+                    "nom": "MICHEL S.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": []
+                }
+            ],
+            "joueurs_b": [
+                {
+                    "nom": "GAUTHIER B.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THOMAS T.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YVANN M.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THEO G.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "KHALIL G.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MARTIN B.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "VASCO B.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "AYMEN B.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MAXENCE H.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "HUGO B.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YANIS B.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "TOM R.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": []
+                }
+            ]
+        },
+        {
+            "url": "/competition/match/79500860-parmain-a-c-eaubonne-football-club",
+            "texte": "SAM 26 SEP 2026 - 15H00 U14 D5 - U15 - U14 Journée 2 PARMAIN AC 0 14 EAUBONNE FC",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "EAUBONNE FC",
+            "score_a": 0,
+            "score_b": 14,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC565601.jpg",
+            "statut": "joué",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "moments_forts": [
+                {
+                    "type": "changement",
+                    "minute": "20’",
+                    "joueur": "Entrant: AYMEN B., Sortant: VASCO B.",
+                    "equipe": "domicile",
+                    "description": "Changement pour PARMAIN AC AYMEN B. remplace VASCO B."
+                },
+                {
+                    "type": "changement",
+                    "minute": "30’",
+                    "joueur": "Entrant: GAUTHIER B., Sortant: HUGO B.",
+                    "equipe": "domicile",
+                    "description": "Changement pour PARMAIN AC GAUTHIER B. remplace HUGO B."
+                }
+            ],
+            "joueurs_a": [
+                {
+                    "nom": "ZAKARIA Z.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JOSHUA W.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MALO H.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MARTIN B.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "KHALIL G.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THEO G.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YANIS B.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "TOM R.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MAXENCE H.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "HUGO B.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (30’)"
+                    ]
+                },
+                {
+                    "nom": "VASCO B.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (20’)"
+                    ]
+                },
+                {
+                    "nom": "AYMEN B.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (20’)"
+                    ]
+                },
+                {
+                    "nom": "GAUTHIER B.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (30’)"
+                    ]
+                },
+                {
+                    "nom": "THOMAS T.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": []
+                }
+            ],
+            "joueurs_b": [
+                {
+                    "nom": "NOLAN O.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "RAYAN B.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MEDINE M.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "RUBEN K.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "AYMAN K.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "AKSEL S.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MOSIAH G.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YOUNES K.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ADAM E.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ZINEDINE Z.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "CHEMSEDINE Z.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                }
+            ]
+        },
+        {
+            "url": "/competition/match/79500904-parmain-a-c-vexin-a-s",
+            "texte": "sam 03 oct 2026 - 15h00 U14 D5 - U15 - U14 Journée 9 PARMAIN AC15VEXIN A.S.",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "VEXIN A.S.",
+            "score_a": 1,
+            "score_b": 5,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC563529.jpg",
+            "statut": "joué",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "moments_forts": [
+                {
+                    "type": "changement",
+                    "minute": "15’",
+                    "joueur": "Entrant: ZAKARIA Z., Sortant: THEO G.",
+                    "equipe": "domicile",
+                    "description": "Changement pour PARMAIN AC ZAKARIA Z. remplace THEO G."
+                },
+                {
+                    "type": "changement",
+                    "minute": "30’",
+                    "joueur": "Entrant: ISAAK M., Sortant: VASCO B.",
+                    "equipe": "domicile",
+                    "description": "Changement pour PARMAIN AC ISAAK M. remplace VASCO B."
+                },
+                {
+                    "type": "changement",
+                    "minute": "50’",
+                    "joueur": "Entrant: TIANA A., Sortant: ENZO P.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour VEXIN A.S. TIANA A. remplace ENZO P."
+                },
+                {
+                    "type": "changement",
+                    "minute": "60’",
+                    "joueur": "Entrant: CELYAN V., Sortant: LUCAS S.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour VEXIN A.S. CELYAN V. remplace LUCAS S."
+                },
+                {
+                    "type": "changement",
+                    "minute": "70’",
+                    "joueur": "Entrant: LUCAS L., Sortant: JOAN L.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour VEXIN A.S. LUCAS L. remplace JOAN L."
+                }
+            ],
+            "joueurs_a": [
+                {
+                    "nom": "HARRY B.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THEO G.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (15’)"
+                    ]
+                },
+                {
+                    "nom": "MALO H.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THOMAS T.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "KHALIL G.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JOSHUA W.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YANIS B.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "TOM R.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MAXENCE H.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "HUGO B.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "VASCO B.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (30’)"
+                    ]
+                },
+                {
+                    "nom": "ZAKARIA Z.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (15’)"
+                    ]
+                },
+                {
+                    "nom": "AYMEN B.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": []
+                },
+                {
+                    "nom": "ISAAK M.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (30’)"
+                    ]
+                }
+            ],
+            "joueurs_b": [
+                {
+                    "nom": "MERLIN L.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ENZO P.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (50’)"
+                    ]
+                },
+                {
+                    "nom": "TIMOTHE C.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LEO P.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MATHIS S.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JULES F.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LUCAS S.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (60’)"
+                    ]
+                },
+                {
+                    "nom": "PAUL L.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "HECTOR D.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "AXEL B.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JOAN L.",
+                    "maillot": "14",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (70’)"
+                    ]
+                },
+                {
+                    "nom": "CELYAN V.",
+                    "maillot": "11",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (60’)"
+                    ]
+                },
+                {
+                    "nom": "LUCAS L.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (70’)"
+                    ]
+                },
+                {
+                    "nom": "TIANA A.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (50’)"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "/competition/match/79500871-parmain-a-c-a-s-chaumontel-luzarches",
+            "texte": "sam 10 oct 2026 - 15h00 U14 D5 - U15 - U14 Journée 4 PARMAIN AC 15:00 CHAUMONTEL LUZARCHES",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "CHAUMONTEL LUZARCHES",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC590322.jpg",
+            "statut": "à venir",
+            "date": "2026-10-10T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79679558-parmain-a-c-belloy-st-martin-a-s-c",
+            "texte": "sam 17 oct 2026 - 15h00 Coupe du Val-d'Oise Crédit Mutuel U14 - U15 - U14 Premier Tour PARMAIN AC 15:00 BELLOY ST MARTIN ASC",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "BELLOY ST MARTIN ASC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC529169.jpg",
+            "statut": "à venir",
+            "date": "2026-10-17T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500878-ent-beaumont-mours-parmain-a-c",
+            "texte": "SAM 07 NOV 2026 - 13H00 U14 D5 - U15 - U14 Journée 5 ENT. BEAUMONT MOURS 2 13:00 PARMAIN AC",
+            "nom_equipe_a": "ENT. BEAUMONT MOURS 2",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC581840.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2026-11-07T13:00:00",
+            "lieu": "STADE GILLES DEGENÉVE",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AVENUE+DU+PRESIDENT+WILSON%2C95260+BEAUMONT+SUR+OISE",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500882-parmain-a-c-magny-en-vexin-f-c",
+            "texte": "SAM 14 NOV 2026 - 15H00 U14 D5 - U15 - U14 Journée 6 PARMAIN AC 15:00 MAGNY EN VEXIN FC 2",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "MAGNY EN VEXIN FC 2",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC500686.jpg",
+            "statut": "à venir",
+            "date": "2026-11-14T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500893-belloy-st-martin-a-s-c-parmain-a-c",
+            "texte": "SAM 28 NOV 2026 - 15H30 U14 D5 - U15 - U14 Journée 7 BELLOY ST MARTIN ASC 15:30 PARMAIN AC",
+            "nom_equipe_a": "BELLOY ST MARTIN ASC",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC529169.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2026-11-28T15:30:00",
+            "lieu": "STADE RAYMOND FOSSET",
+            "lieu_lien_carte": "http://maps.apple.com/?address=RUE+ROGER+SALENGRO%2C95270+ST+MARTIN+DU+TERTRE",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500894-beauchamp-a-s-parmain-a-c",
+            "texte": "SAM 05 DÉC 2026 - 16H00 U14 D5 - U15 - U14 Journée 8 BEAUCHAMP A.S. 3 16:00 PARMAIN AC",
+            "nom_equipe_a": "BEAUCHAMP A.S. 3",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC500611.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": null,
+            "lieu": "PARC DES SPORTS BARRACHIN 2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AVENUE+DE+L+EGALITE%2C95250+BEAUCHAMP",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500869-st-brice-f-c-parmain-a-c",
+            "texte": "SAM 12 DÉC 2026 - 15H30 U14 D5 - U15 - U14 Journée 3 ST BRICE F.C. 4 15:30 PARMAIN AC",
+            "nom_equipe_a": "ST BRICE F.C. 4",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC527269.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": null,
+            "lieu": "STADE LÉON GRAFFIN 2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=2+RUE+DE+LA+FORET%2C95350+ST+BRICE+SOUS+FORET",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500907-franconville-f-c-parmain-a-c",
+            "texte": "SAM 09 JAN 2027 - 15H30 U14 D5 - U15 - U14 Journée 10 FRANCONVILLE FC 3 15:30 PARMAIN AC",
+            "nom_equipe_a": "FRANCONVILLE FC 3",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC500578.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-01-09T15:30:00",
+            "lieu": "STADE JEAN ROLLAND N°3",
+            "lieu_lien_carte": "http://maps.apple.com/?address=112+RUE+DES+POMMIERS+SAULNIERS%2C95130+FRANCONVILLE+LA+GARENNE",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500915-parmain-a-c-sarcelles-a-a-s",
+            "texte": "SAM 16 JAN 2027 - 15H00 U14 D5 - U15 - U14 Journée 11 PARMAIN AC 15:00 SARCELLES AAS 7",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "SARCELLES AAS 7",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC500695.jpg",
+            "statut": "à venir",
+            "date": "2027-01-16T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500930-eaubonne-football-club-parmain-a-c",
+            "texte": "SAM 23 JAN 2027 - 14H30 U14 D5 - U15 - U14 Journée 12 EAUBONNE FC 14:30 PARMAIN AC",
+            "nom_equipe_a": "EAUBONNE FC",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC565601.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-01-23T14:30:00",
+            "lieu": "STADE PAUL NICOLAS",
+            "lieu_lien_carte": "http://maps.apple.com/?address=ROUTE+DE+MARGENCY%2C95600+EAUBONNE",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500939-parmain-a-c-st-brice-f-c",
+            "texte": "SAM 30 JAN 2027 - 15H00 U14 D5 - U15 - U14 Journée 13 PARMAIN AC 15:00 ST BRICE F.C. 4",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "ST BRICE F.C. 4",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC527269.jpg",
+            "statut": "à venir",
+            "date": "2027-01-30T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500977-parmain-a-c-franconville-f-c",
+            "texte": "SAM 06 FÉV 2027 - 15H00 U14 D5 - U15 - U14 Journée 20 PARMAIN AC 15:00 FRANCONVILLE FC 3",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "FRANCONVILLE FC 3",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC500578.jpg",
+            "statut": "à venir",
+            "date": null,
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500941-a-s-chaumontel-luzarches-parmain-a-c",
+            "texte": "SAM 27 FÉV 2027 - 14H00 U14 D5 - U15 - U14 Journée 14 CHAUMONTEL LUZARCHES 14:00 PARMAIN AC",
+            "nom_equipe_a": "CHAUMONTEL LUZARCHES",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC590322.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": null,
+            "lieu": "STADE DU GRAND PARC 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=CHEMIN+DE+COYE%2C95270+CHAUMONTEL",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500948-parmain-a-c-ent-beaumont-mours",
+            "texte": "SAM 06 MAR 2027 - 15H00 U14 D5 - U15 - U14 Journée 15 PARMAIN AC 15:00 ENT. BEAUMONT MOURS 2",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "ENT. BEAUMONT MOURS 2",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC581840.jpg",
+            "statut": "à venir",
+            "date": "2027-03-06T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500952-magny-en-vexin-f-c-parmain-a-c",
+            "texte": "SAM 13 MAR 2027 - 15H00 U14 D5 - U15 - U14 Journée 16 MAGNY EN VEXIN FC 2 15:00 PARMAIN AC",
+            "nom_equipe_a": "MAGNY EN VEXIN FC 2",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC500686.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-03-13T15:00:00",
+            "lieu": "STADE PAUL CHERON 2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=RUE+PHILIPPE+CHEVALIER%2C95420+MAGNY+EN+VEXIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500963-parmain-a-c-belloy-st-martin-a-s-c",
+            "texte": "SAM 20 MAR 2027 - 15H00 U14 D5 - U15 - U14 Journée 17 PARMAIN AC 15:00 BELLOY ST MARTIN ASC",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "BELLOY ST MARTIN ASC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC529169.jpg",
+            "statut": "à venir",
+            "date": "2027-03-20T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500974-vexin-a-s-parmain-a-c",
+            "texte": "SAM 03 AVR 2027 - 15H30 U14 D5 - U15 - U14 Journée 19 VEXIN A.S. 15:30 PARMAIN AC",
+            "nom_equipe_a": "VEXIN A.S.",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC563529.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-04-03T15:30:00",
+            "lieu": "STADE MUNICIPAL",
+            "lieu_lien_carte": "http://maps.apple.com/?address=BOULEVARD+GAMBETTA%2C95640+MARINES",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500964-parmain-a-c-beauchamp-a-s",
+            "texte": "SAM 24 AVR 2027 - 15H00 U14 D5 - U15 - U14 Journée 18 PARMAIN AC 15:00 BEAUCHAMP A.S. 3",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "BEAUCHAMP A.S. 3",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC500611.jpg",
+            "statut": "à venir",
+            "date": "2027-04-24T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500985-sarcelles-a-a-s-parmain-a-c",
+            "texte": "SAM 22 MAI 2027 - 13H30 U14 D5 - U15 - U14 Journée 21 SARCELLES AAS 7 13:30 PARMAIN AC",
+            "nom_equipe_a": "SARCELLES AAS 7",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC500695.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-05-22T13:30:00",
+            "lieu": "Stade Jacques Isaac BramI",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AVENUE+PAUL+LANGEVIN%2CTERRAIN+J.+BRAMI+%2F+HONNEUR%2C95200+SARCELLES",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79500990-parmain-a-c-auvers-ennery-f-c",
+            "texte": "SAM 29 MAI 2027 - 15H00 U14 D5 - U15 - U14 Journée 22 PARMAIN AC 15:00 AUVERS-ENNERY FC",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "AUVERS-ENNERY FC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC510501.jpg",
+            "statut": "à venir",
+            "date": "2027-05-29T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        }
+    ],
+    "totalItems": 23
 }

@@ -1,4 +1,441 @@
 {
-    "items": [],
-    "totalItems": 0
+    "items": [
+        {
+            "url": "/competition/match/56532827-fosses-f-u-parmain-a-c",
+            "texte": "dim 18 oct 2026 - 15h30 Seniors Départemental 4 - Senior Journée 2 FOSSES F. U. 2 15:30 PARMAIN AC",
+            "nom_equipe_a": "FOSSES F. U. 2",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC542402.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2026-10-18T15:30:00",
+            "lieu": "STADE AUGUSTE DELAUNE",
+            "lieu_lien_carte": "http://maps.apple.com/?address=RUE+DU+G.D.+TREMBLAY%2C95470+FOSSES",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/79757039-montsoult-baillet-us-parmain-a-c",
+            "texte": "dim 25 oct 2026 - 15h30 Coupe du Val-d'Oise CM Seniors Coutelier - Senior Deuxième tour MONTSOULT BAILLET US 15:30 PARMAIN AC",
+            "nom_equipe_a": "MONTSOULT BAILLET US",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC522868.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2026-10-25T15:30:00",
+            "lieu": "STADE DU COSEC 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=31+RUE+EMILE+COMBRES%2C95560+MONTSOULT",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532832-parmain-a-c-vaureal-f-c-m",
+            "texte": "DIM 01 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 3 PARMAIN AC 15:00 VAUREAL F. C. M. 3",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "VAUREAL F. C. M. 3",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC538505.jpg",
+            "statut": "à venir",
+            "date": "2026-11-01T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532820-parmain-a-c-vexin-a-s",
+            "texte": "DIM 15 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 1 PARMAIN AC 15:00 VEXIN A.S.",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "VEXIN A.S.",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC563529.jpg",
+            "statut": "à venir",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "moments_forts": [],
+            "joueurs_a": [
+                {
+                    "nom": "LOUIS M.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MELVYN M.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MOHAMED ALI K.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LUCAS R.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ROWAN G.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MATHIEU B.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LORENZO L.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "TIMEO S.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ETHAN T.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JEREMY P.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "IMRANE E.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LUCAS B.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": []
+                },
+                {
+                    "nom": "JEREMY D.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": []
+                }
+            ],
+            "joueurs_b": [
+                {
+                    "nom": "JULIEN M.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THIBAULT S.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "FLORIAN L.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "FAHD H.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "CHRISTOPHER P.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "DAVID G.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ENZO T.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "VALENTIN C.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "OMAR I.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "DJAYSON D.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "KILIAN G.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JEREMY O.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": []
+                },
+                {
+                    "nom": "NICOLAS C.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": []
+                },
+                {
+                    "nom": "KAMIL M.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": []
+                }
+            ]
+        },
+        {
+            "url": "/competition/match/56532837-garges-les-gonesse-f-c-m-parmain-a-c",
+            "texte": "DIM 15 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 4 GARGES GONESSE FCM 3 15:00 PARMAIN AC",
+            "nom_equipe_a": "GARGES GONESSE FCM 3",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC522695.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2026-11-15T15:00:00",
+            "lieu": "STADE PIERRE DE COUBERTIN N°2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AVENUE+FREDERIC+JOLIOT+CURIE%2CTERRAIN+ANNEXE+1%2C95140+GARGES+LES+GONESSE",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532840-parmain-a-c-entente-sportive-herblay",
+            "texte": "DIM 22 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 5 PARMAIN AC 15:00 E.S. HERBLAY 3",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "E.S. HERBLAY 3",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC561058.jpg",
+            "statut": "à venir",
+            "date": "2026-11-22T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532845-assoc-de-la-jeunesse-enghiennoise-et-deuilloise-parmain-a-c",
+            "texte": "DIM 29 NOV 2026 - 16H00 Seniors Départemental 4 - Senior Journée 6 AJED 2 16:00 PARMAIN AC",
+            "nom_equipe_a": "AJED 2",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC565187.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2026-11-29T16:00:00",
+            "lieu": "STADE INTERCOMMUNAL JEAN BOUIN 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=5+RUE+JEAN+BOUIN%2C95170+DEUIL+LA+BARRE",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532853-parmain-a-c-ent-beaumont-mours",
+            "texte": "DIM 06 DÉC 2026 - 15H00 Seniors Départemental 4 - Senior Journée 7 PARMAIN AC 15:00 ENT. BEAUMONT MOURS 2",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "ENT. BEAUMONT MOURS 2",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC581840.jpg",
+            "statut": "à venir",
+            "date": null,
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532860-thillay-vaud-herland-ent-s-mun-parmain-a-c",
+            "texte": "DIM 17 JAN 2027 - 15H00 Seniors Départemental 4 - Senior Journée 9 THILLAY VAUD'HERLAND 2 15:00 PARMAIN AC",
+            "nom_equipe_a": "THILLAY VAUD'HERLAND 2",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC519763.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-01-17T15:00:00",
+            "lieu": "STADE MUNICIPAL 2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=25+CHEMIN+DE+ST+DENIS%2C95500+LE+THILLAY",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532867-parmain-a-c-fosses-f-u",
+            "texte": "DIM 24 JAN 2027 - 15H00 Seniors Départemental 4 - Senior Journée 10 PARMAIN AC 15:00 FOSSES F. U. 2",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "FOSSES F. U. 2",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC542402.jpg",
+            "statut": "à venir",
+            "date": "2027-01-24T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532872-vaureal-f-c-m-parmain-a-c",
+            "texte": "DIM 31 JAN 2027 - 15H00 Seniors Départemental 4 - Senior Journée 11 VAUREAL F. C. M. 3 15:00 PARMAIN AC",
+            "nom_equipe_a": "VAUREAL F. C. M. 3",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC538505.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-01-31T15:00:00",
+            "lieu": "PARC DES SPORTS N° 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=40+AVENUE+AUGUSTE+BLANQUI%2C95490+VAUREAL",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532877-parmain-a-c-garges-les-gonesse-f-c-m",
+            "texte": "DIM 28 FÉV 2027 - 15H00 Seniors Départemental 4 - Senior Journée 12 PARMAIN AC 15:00 GARGES GONESSE FCM 3",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "GARGES GONESSE FCM 3",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC522695.jpg",
+            "statut": "à venir",
+            "date": null,
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532880-entente-sportive-herblay-parmain-a-c",
+            "texte": "DIM 07 MAR 2027 - 15H30 Seniors Départemental 4 - Senior Journée 13 E.S. HERBLAY 3 15:30 PARMAIN AC",
+            "nom_equipe_a": "E.S. HERBLAY 3",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC561058.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-03-07T15:30:00",
+            "lieu": "STADE DES BEAUREGARDS 3",
+            "lieu_lien_carte": "http://maps.apple.com/?address=+ROUTE+DE+PIERRELAYE%2CTERRAIN+ANNEXE+A2%2C95220+HERBLAY+SUR+SEINE",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532885-parmain-a-c-assoc-de-la-jeunesse-enghiennoise-et-deuilloise",
+            "texte": "DIM 14 MAR 2027 - 15H00 Seniors Départemental 4 - Senior Journée 14 PARMAIN AC 15:00 AJED 2",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "AJED 2",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC565187.jpg",
+            "statut": "à venir",
+            "date": "2027-03-14T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532893-ent-beaumont-mours-parmain-a-c",
+            "texte": "DIM 21 MAR 2027 - 16H00 Seniors Départemental 4 - Senior Journée 15 ENT. BEAUMONT MOURS 2 16:00 PARMAIN AC",
+            "nom_equipe_a": "ENT. BEAUMONT MOURS 2",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC581840.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-03-21T16:00:00",
+            "lieu": "STADE GILLES DEGENÉVE N°2",
+            "lieu_lien_carte": "http://maps.apple.com/?address=+AVENUE+DU+PRESIDENT+WILSON%2C95260+BEAUMONT+SUR+OISE",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532900-parmain-a-c-thillay-vaud-herland-ent-s-mun",
+            "texte": "DIM 23 MAI 2027 - 15H00 Seniors Départemental 4 - Senior Journée 17 PARMAIN AC 15:00 THILLAY VAUD'HERLAND 2",
+            "nom_equipe_a": "PARMAIN AC",
+            "nom_equipe_b": "THILLAY VAUD'HERLAND 2",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC519763.jpg",
+            "statut": "à venir",
+            "date": "2027-05-23T15:00:00",
+            "lieu": "STADE JACQUES HUNAUT 1",
+            "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
+            "joueurs_a": [],
+            "joueurs_b": []
+        },
+        {
+            "url": "/competition/match/56532905-vexin-a-s-parmain-a-c",
+            "texte": "DIM 30 MAI 2027 - 15H00 Seniors Départemental 4 - Senior Journée 18 VEXIN A.S. 15:00 PARMAIN AC",
+            "nom_equipe_a": "VEXIN A.S.",
+            "nom_equipe_b": "PARMAIN AC",
+            "score_a": null,
+            "score_b": null,
+            "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC563529.jpg",
+            "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
+            "statut": "à venir",
+            "date": "2027-05-30T15:00:00",
+            "lieu": "STADE MUNICIPAL",
+            "lieu_lien_carte": "http://maps.apple.com/?address=BOULEVARD+GAMBETTA%2C95640+MARINES",
+            "joueurs_a": [],
+            "joueurs_b": []
+        }
+    ],
+    "totalItems": 17
 }
