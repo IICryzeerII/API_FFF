@@ -1,10 +1,10 @@
 {
     "controle_integrite": {
-        "total_buts_reels": 3,
+        "total_buts_reels": 4,
         "total_buts_admin": 3,
         "total_passes_admin": 2,
-        "alerte_incoherence": false,
-        "message": "Tableau à jour."
+        "alerte_incoherence": true,
+        "message": "ATTENTION : Le total des buts ne correspond pas aux scores FFF (ou trop de passes décisives) !"
     },
     "joueurs": [
         {
@@ -74,6 +74,11 @@
         },
         {
             "nom": "Vasco B.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Yacin E.",
             "buts": 0,
             "passes_d": 0
         },

@@ -609,19 +609,248 @@
         },
         {
             "url": "/competition/match/79500871-parmain-a-c-a-s-chaumontel-luzarches",
-            "texte": "sam 10 oct 2026 - 15h00 U14 D5 - U15 - U14 Journée 4 PARMAIN AC 15:00 CHAUMONTEL LUZARCHES",
+            "texte": "sam 10 oct 2026 - 15h00 U14 D5 - U15 - U14 Journée 4 PARMAIN AC18CHAUMONTEL LUZARCHES",
             "nom_equipe_a": "PARMAIN AC",
             "nom_equipe_b": "CHAUMONTEL LUZARCHES",
-            "score_a": null,
-            "score_b": null,
+            "score_a": 1,
+            "score_b": 8,
             "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC590322.jpg",
-            "statut": "à venir",
-            "date": "2026-10-10T15:00:00",
+            "statut": "joué",
             "lieu": "STADE JACQUES HUNAUT 1",
             "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
-            "joueurs_a": [],
-            "joueurs_b": []
+            "moments_forts": [
+                {
+                    "type": "carton_jaune",
+                    "minute": "23’",
+                    "joueur": "KEYSSALON V.",
+                    "equipe": "exterieur",
+                    "description": "Avertissement pour CHAUMONTEL LUZARCHES KEYSSALON V. est averti"
+                },
+                {
+                    "type": "changement",
+                    "minute": "25’",
+                    "joueur": "Entrant: AYOUB T., Sortant: NELSON N.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour CHAUMONTEL LUZARCHES AYOUB T. remplace NELSON N."
+                },
+                {
+                    "type": "changement",
+                    "minute": "34’",
+                    "joueur": "Entrant: ZAKARIA Z., Sortant: HUGO B.",
+                    "equipe": "domicile",
+                    "description": "Changement pour PARMAIN AC ZAKARIA Z. remplace HUGO B."
+                },
+                {
+                    "type": "changement",
+                    "minute": "40’",
+                    "joueur": "Entrant: LOUKA F., Sortant: SACHA L.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour CHAUMONTEL LUZARCHES LOUKA F. remplace SACHA L."
+                },
+                {
+                    "type": "changement",
+                    "minute": "40’",
+                    "joueur": "Entrant: YACIN E., Sortant: VASCO B.",
+                    "equipe": "domicile",
+                    "description": "Changement pour PARMAIN AC YACIN E. remplace VASCO B."
+                },
+                {
+                    "type": "changement",
+                    "minute": "65’",
+                    "joueur": "Entrant: RAFAEL M., Sortant: NOLAN C.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour CHAUMONTEL LUZARCHES RAFAEL M. remplace NOLAN C."
+                }
+            ],
+            "joueurs_a": [
+                {
+                    "nom": "HARRY B.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THEO G.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MALO H.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ISAAK M.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "KHALIL G.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JOSHUA W.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YANIS B.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "TOM R.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MAXENCE H.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "HUGO B.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (34’)"
+                    ]
+                },
+                {
+                    "nom": "VASCO B.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (40’)"
+                    ]
+                },
+                {
+                    "nom": "ZAKARIA Z.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (34’)"
+                    ]
+                },
+                {
+                    "nom": "YACIN E.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (40’)"
+                    ]
+                }
+            ],
+            "joueurs_b": [
+                {
+                    "nom": "LENZO B.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "CAMILLE R.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LEO G.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LOUKA D.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MATIAS P.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LINO B.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LIAM L.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "KEYSSALON V.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": [
+                        "carton_jaune (23’)"
+                    ]
+                },
+                {
+                    "nom": "SACHA L.",
+                    "maillot": "12",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (40’)"
+                    ]
+                },
+                {
+                    "nom": "NOLAN C.",
+                    "maillot": "13",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (65’)"
+                    ]
+                },
+                {
+                    "nom": "NELSON N.",
+                    "maillot": "15",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (25’)"
+                    ]
+                },
+                {
+                    "nom": "LOUKA F.",
+                    "maillot": "5",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (40’)"
+                    ]
+                },
+                {
+                    "nom": "RAFAEL M.",
+                    "maillot": "7",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (65’)"
+                    ]
+                },
+                {
+                    "nom": "AYOUB T.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (25’)"
+                    ]
+                }
+            ]
         },
         {
             "url": "/competition/match/79679558-parmain-a-c-belloy-st-martin-a-s-c",
