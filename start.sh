@@ -31,6 +31,10 @@ if [ -f "requirements.txt" ]; then
     $VENV_PIP install --upgrade pip
     echo "Installation des dépendances depuis requirements.txt..."
     $VENV_PIP install -r requirements.txt
+    
+    # 5. Télécharger les navigateurs Playwright (Crucial !)
+    echo "Téléchargement des navigateurs Playwright..."
+    playwright install
 else
     echo "⚠️ Aucun fichier requirements.txt trouvé dans le dossier actuel."
 fi
