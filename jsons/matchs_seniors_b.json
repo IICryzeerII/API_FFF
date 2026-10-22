@@ -34,19 +34,226 @@
         },
         {
             "url": "/competition/match/78941816-parmain-a-c-association-sportive-orvilloise",
-            "texte": "dim 18 oct 2026 - 15h00 Seniors Départemental 4 - Senior Journée 2 PARMAIN AC 2 15:00 ORVILLOISE AS",
+            "texte": "dim 18 oct 2026 - 15h00 Seniors Départemental 4 - Senior Journée 2 PARMAIN AC 2018ORVILLOISE AS",
             "nom_equipe_a": "PARMAIN AC 2",
             "nom_equipe_b": "ORVILLOISE AS",
-            "score_a": null,
-            "score_b": null,
+            "score_a": 0,
+            "score_b": 18,
             "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC564626.jpg",
-            "statut": "à venir",
-            "date": "2026-10-18T15:00:00",
+            "statut": "joué",
             "lieu": "STADE JACQUES HUNAUT 1",
             "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
-            "joueurs_a": [],
-            "joueurs_b": []
+            "moments_forts": [
+                {
+                    "type": "changement",
+                    "minute": "34’",
+                    "joueur": "Entrant: QUENTIN M., Sortant: HASAN C.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour ORVILLOISE AS QUENTIN M. remplace HASAN C."
+                },
+                {
+                    "type": "changement",
+                    "minute": "46’",
+                    "joueur": "Entrant: MAMADI S., Sortant: MOHAMEDI S.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour ORVILLOISE AS MAMADI S. remplace MOHAMEDI S."
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "65’",
+                    "joueur": "MATHIS L.",
+                    "equipe": "domicile",
+                    "description": "Avertissement pour PARMAIN AC 2 MATHIS L. est averti"
+                },
+                {
+                    "type": "changement",
+                    "minute": "67’",
+                    "joueur": "Entrant: NOLHAN P., Sortant: PRAVEEN N.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour ORVILLOISE AS NOLHAN P. remplace PRAVEEN N."
+                }
+            ],
+            "joueurs_a": [
+                {
+                    "nom": "JEAN PAUL D.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MATHIS L.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": [
+                        "carton_jaune (65’)"
+                    ]
+                },
+                {
+                    "nom": "EVAN B.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "OWEN C.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "GAEL L.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LUCAS B.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "NOAH R.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LENY S.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MATHIEU B.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "IMRANE E.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MAHER Q.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MELVYN M.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": []
+                },
+                {
+                    "nom": "CEDRIK F.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": []
+                }
+            ],
+            "joueurs_b": [
+                {
+                    "nom": "KEVIN A.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "NICOLAS C.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YOUNIS C.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JORDAN J.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MOHAMEDI S.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (46’)"
+                    ]
+                },
+                {
+                    "nom": "YANN A.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THOMAS A.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "HASAN C.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (34’)"
+                    ]
+                },
+                {
+                    "nom": "CORENTIN B.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "PRAVEEN N.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (67’)"
+                    ]
+                },
+                {
+                    "nom": "ENZO A.",
+                    "maillot": "13",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "QUENTIN M.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (34’)"
+                    ]
+                },
+                {
+                    "nom": "NOLHAN P.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (67’)"
+                    ]
+                },
+                {
+                    "nom": "MAMADI S.",
+                    "maillot": "15",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (46’)"
+                    ]
+                }
+            ]
         },
         {
             "url": "/competition/match/79756747-parmain-a-c-st-ouen-l-aumone-a-s",

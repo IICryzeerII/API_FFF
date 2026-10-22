@@ -1,6 +1,6 @@
 {
     "controle_integrite": {
-        "total_buts_reels": 4,
+        "total_buts_reels": 5,
         "total_buts_admin": 3,
         "total_passes_admin": 2,
         "alerte_incoherence": true,

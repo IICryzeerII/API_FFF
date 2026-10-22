@@ -6,5 +6,71 @@
         "alerte_incoherence": false,
         "message": "Tableau à jour."
     },
-    "joueurs": []
+    "joueurs": [
+        {
+            "nom": "Cedrik F.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Evan B.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Gael L.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Imrane E.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Jean D.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Leny S.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Lucas B.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Maher Q.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Mathieu B.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Mathis L.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Melvyn M.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Noah R.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Owen C.",
+            "buts": 0,
+            "passes_d": 0
+        }
+    ]
 }

@@ -2,19 +2,291 @@
     "items": [
         {
             "url": "/competition/match/56532827-fosses-f-u-parmain-a-c",
-            "texte": "dim 18 oct 2026 - 15h30 Seniors Départemental 4 - Senior Journée 2 FOSSES F. U. 2 15:30 PARMAIN AC",
+            "texte": "dim 18 oct 2026 - 15h30 Seniors Départemental 4 - Senior Journée 2 FOSSES F. U. 260PARMAIN AC",
             "nom_equipe_a": "FOSSES F. U. 2",
             "nom_equipe_b": "PARMAIN AC",
-            "score_a": null,
-            "score_b": null,
+            "score_a": 6,
+            "score_b": 0,
             "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC542402.jpg",
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
-            "statut": "à venir",
-            "date": "2026-10-18T15:30:00",
+            "statut": "joué",
             "lieu": "STADE AUGUSTE DELAUNE",
             "lieu_lien_carte": "http://maps.apple.com/?address=RUE+DU+G.D.+TREMBLAY%2C95470+FOSSES",
-            "joueurs_a": [],
-            "joueurs_b": []
+            "moments_forts": [
+                {
+                    "type": "carton_jaune",
+                    "minute": "17’",
+                    "joueur": "SOHANE Z.",
+                    "equipe": "domicile",
+                    "description": "Avertissement pour FOSSES F. U. 2 SOHANE Z. est averti"
+                },
+                {
+                    "type": "changement",
+                    "minute": "28’",
+                    "joueur": "Entrant: LENAIK C., Sortant: ELIES V.",
+                    "equipe": "domicile",
+                    "description": "Changement pour FOSSES F. U. 2 LENAIK C. remplace ELIES V."
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "30’",
+                    "joueur": "JEROME L.",
+                    "equipe": "exterieur",
+                    "description": "Avertissement pour PARMAIN AC JEROME L. est averti"
+                },
+                {
+                    "type": "changement",
+                    "minute": "43’",
+                    "joueur": "Entrant: JEREMY B., Sortant: ETHAN T.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour PARMAIN AC JEREMY B. remplace ETHAN T."
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "50’",
+                    "joueur": "AXEL T.",
+                    "equipe": "exterieur",
+                    "description": "Avertissement pour PARMAIN AC AXEL T. est averti"
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "60’",
+                    "joueur": "LENAIK C.",
+                    "equipe": "domicile",
+                    "description": "Avertissement pour FOSSES F. U. 2 LENAIK C. est averti"
+                },
+                {
+                    "type": "changement",
+                    "minute": "60’",
+                    "joueur": "Entrant: KELYAN L., Sortant: NICOLAS B.",
+                    "equipe": "domicile",
+                    "description": "Changement pour FOSSES F. U. 2 KELYAN L. remplace NICOLAS B."
+                },
+                {
+                    "type": "changement",
+                    "minute": "65’",
+                    "joueur": "Entrant: JEREMY B., Sortant: MOUSSA C.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour PARMAIN AC JEREMY B. remplace MOUSSA C."
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "70’",
+                    "joueur": "JEREMY B.",
+                    "equipe": "exterieur",
+                    "description": "Avertissement pour PARMAIN AC JEREMY B. est averti"
+                },
+                {
+                    "type": "changement",
+                    "minute": "70’",
+                    "joueur": "Entrant: ADAM C., Sortant: THIBAUD P.",
+                    "equipe": "domicile",
+                    "description": "Changement pour FOSSES F. U. 2 ADAM C. remplace THIBAUD P."
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "75’",
+                    "joueur": "ADAM M.",
+                    "equipe": "domicile",
+                    "description": "Avertissement pour FOSSES F. U. 2 ADAM M. est averti"
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "89’",
+                    "joueur": "ROWAN G.",
+                    "equipe": "exterieur",
+                    "description": "Avertissement pour PARMAIN AC ROWAN G. est averti"
+                }
+            ],
+            "joueurs_a": [
+                {
+                    "nom": "CORNEILLE S.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YACINE S.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "SOHANE Z.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": [
+                        "carton_jaune (17’)"
+                    ]
+                },
+                {
+                    "nom": "ADAM M.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": [
+                        "carton_jaune (75’)"
+                    ]
+                },
+                {
+                    "nom": "ANIS D.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "GHILAS M.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ELIES V.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (28’)"
+                    ]
+                },
+                {
+                    "nom": "NICOLAS B.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (60’)"
+                    ]
+                },
+                {
+                    "nom": "AURELIEN MARCEL M.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LENNY C.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THIBAUD P.",
+                    "maillot": "15",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (70’)"
+                    ]
+                },
+                {
+                    "nom": "ADAM C.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (70’)"
+                    ]
+                },
+                {
+                    "nom": "LENAIK C.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (28’)",
+                        "carton_jaune (60’)"
+                    ]
+                },
+                {
+                    "nom": "KELYAN L.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (60’)"
+                    ]
+                }
+            ],
+            "joueurs_b": [
+                {
+                    "nom": "GUILLAUME R.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ROWAN G.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": [
+                        "carton_jaune (89’)"
+                    ]
+                },
+                {
+                    "nom": "HUGO P.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MOUSSA C.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (65’)"
+                    ]
+                },
+                {
+                    "nom": "AXEL T.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": [
+                        "carton_jaune (50’)"
+                    ]
+                },
+                {
+                    "nom": "LUCAS R.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LORENZO L.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ETHAN T.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (43’)"
+                    ]
+                },
+                {
+                    "nom": "MOHAMED C.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "TIMEO S.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LOUIS M.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JEREMY B.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (43’)",
+                        "Entrée (65’)",
+                        "carton_jaune (70’)"
+                    ]
+                }
+            ]
         },
         {
             "url": "/competition/match/79757039-montsoult-baillet-us-parmain-a-c",
@@ -50,7 +322,7 @@
         },
         {
             "url": "/competition/match/56532820-parmain-a-c-vexin-a-s",
-            "texte": "DIM 08 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 1 PARMAIN AC REPORTÉ VEXIN A.S.",
+            "texte": "DIM 08 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 1 PARMAIN AC 15:00 VEXIN A.S.",
             "nom_equipe_a": "PARMAIN AC",
             "nom_equipe_b": "VEXIN A.S.",
             "score_a": null,

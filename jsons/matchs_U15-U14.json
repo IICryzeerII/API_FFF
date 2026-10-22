@@ -854,23 +854,269 @@
         },
         {
             "url": "/competition/match/79679558-parmain-a-c-belloy-st-martin-a-s-c",
-            "texte": "sam 17 oct 2026 - 15h00 Coupe du Val-d'Oise Crédit Mutuel U14 - U15 - U14 Premier Tour PARMAIN AC 15:00 BELLOY ST MARTIN ASC",
+            "texte": "sam 17 oct 2026 - 15h00 Coupe du Val-d'Oise Crédit Mutuel U14 - U15 - U14 Premier Tour PARMAIN AC13BELLOY ST MARTIN ASC",
             "nom_equipe_a": "PARMAIN AC",
             "nom_equipe_b": "BELLOY ST MARTIN ASC",
-            "score_a": null,
-            "score_b": null,
+            "score_a": 1,
+            "score_b": 3,
             "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC529169.jpg",
-            "statut": "à venir",
-            "date": "2026-10-17T15:00:00",
+            "statut": "joué",
             "lieu": "STADE JACQUES HUNAUT 1",
             "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
-            "joueurs_a": [],
-            "joueurs_b": []
+            "moments_forts": [
+                {
+                    "type": "changement",
+                    "minute": "23’",
+                    "joueur": "Entrant: TINO L., Sortant: TIMEO I.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour BELLOY ST MARTIN ASC TINO L. remplace TIMEO I."
+                },
+                {
+                    "type": "changement",
+                    "minute": "27’",
+                    "joueur": "Entrant: LOWEN L., Sortant: LILIEN M.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour BELLOY ST MARTIN ASC LOWEN L. remplace LILIEN M."
+                },
+                {
+                    "type": "changement",
+                    "minute": "29’",
+                    "joueur": "Entrant: AYMEN B., Sortant: VASCO B.",
+                    "equipe": "domicile",
+                    "description": "Changement pour PARMAIN AC AYMEN B. remplace VASCO B."
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "30’",
+                    "joueur": "YLANN F.",
+                    "equipe": "exterieur",
+                    "description": "Avertissement pour BELLOY ST MARTIN ASC YLANN F. est averti"
+                },
+                {
+                    "type": "changement",
+                    "minute": "36’",
+                    "joueur": "Entrant: GAUTHIER B., Sortant: JOSHUA W.",
+                    "equipe": "domicile",
+                    "description": "Changement pour PARMAIN AC GAUTHIER B. remplace JOSHUA W."
+                },
+                {
+                    "type": "changement",
+                    "minute": "45’",
+                    "joueur": "Entrant: SERIBA D., Sortant: ETHAN C.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour BELLOY ST MARTIN ASC SERIBA D. remplace ETHAN C."
+                },
+                {
+                    "type": "changement",
+                    "minute": "57’",
+                    "joueur": "Entrant: YVANN M., Sortant: MARTIN B.",
+                    "equipe": "domicile",
+                    "description": "Changement pour PARMAIN AC YVANN M. remplace MARTIN B."
+                }
+            ],
+            "joueurs_a": [
+                {
+                    "nom": "HARRY B.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MARTIN B.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (57’)"
+                    ]
+                },
+                {
+                    "nom": "MALO H.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THOMAS T.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "KHALIL G.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JOSHUA W.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (36’)"
+                    ]
+                },
+                {
+                    "nom": "YANIS B.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "TOM R.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MAXENCE H.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "HUGO B.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "VASCO B.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (29’)"
+                    ]
+                },
+                {
+                    "nom": "AYMEN B.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (29’)"
+                    ]
+                },
+                {
+                    "nom": "GAUTHIER B.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (36’)"
+                    ]
+                },
+                {
+                    "nom": "YVANN M.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (57’)"
+                    ]
+                }
+            ],
+            "joueurs_b": [
+                {
+                    "nom": "MAHFOUD K.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ADAM A.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ETHAN C.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (45’)"
+                    ]
+                },
+                {
+                    "nom": "YOUCEF B.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YLANN F.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": [
+                        "carton_jaune (30’)"
+                    ]
+                },
+                {
+                    "nom": "ENZO D.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "SAHEL B.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LILIEN M.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (27’)"
+                    ]
+                },
+                {
+                    "nom": "JAYDEN M.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YANIS K.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "TIMEO I.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (23’)"
+                    ]
+                },
+                {
+                    "nom": "SERIBA D.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (45’)"
+                    ]
+                },
+                {
+                    "nom": "LOWEN L.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (27’)"
+                    ]
+                },
+                {
+                    "nom": "TINO L.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (23’)"
+                    ]
+                }
+            ]
         },
         {
             "url": "/competition/match/79500878-ent-beaumont-mours-parmain-a-c",
-            "texte": "SAM 07 NOV 2026 - 13H00 U14 D5 - U15 - U14 Journée 5 ENT. BEAUMONT MOURS 2 13:00 PARMAIN AC",
+            "texte": "sam 07 nov 2026 - 13h00 U14 D5 - U15 - U14 Journée 5 ENT. BEAUMONT MOURS 2 13:00 PARMAIN AC",
             "nom_equipe_a": "ENT. BEAUMONT MOURS 2",
             "nom_equipe_b": "PARMAIN AC",
             "score_a": null,
