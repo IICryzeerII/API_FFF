@@ -8,7 +8,17 @@
     },
     "joueurs": [
         {
+            "nom": "Anis S.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
             "nom": "Cedrik F.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Ethan T.",
             "buts": 0,
             "passes_d": 0
         },
@@ -29,6 +39,11 @@
         },
         {
             "nom": "Jean D.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Jeremy B.",
             "buts": 0,
             "passes_d": 0
         },
@@ -59,6 +74,21 @@
         },
         {
             "nom": "Melvyn M.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Mohamed C.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Mohamed K.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Moussa C.",
             "buts": 0,
             "passes_d": 0
         },

@@ -290,23 +290,252 @@
         },
         {
             "url": "/competition/match/79757039-montsoult-baillet-us-parmain-a-c",
-            "texte": "dim 25 oct 2026 - 15h30 Coupe du Val-d'Oise CM Seniors Coutelier - Senior Deuxième tour MONTSOULT BAILLET US 15:30 PARMAIN AC",
+            "texte": "dim 25 oct 2026 - 15h30 Coupe du Val-d'Oise CM Seniors Coutelier - Senior Deuxième tour MONTSOULT BAILLET US71PARMAIN AC",
             "nom_equipe_a": "MONTSOULT BAILLET US",
             "nom_equipe_b": "PARMAIN AC",
-            "score_a": null,
-            "score_b": null,
+            "score_a": 7,
+            "score_b": 1,
             "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC522868.jpg",
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
-            "statut": "à venir",
-            "date": "2026-10-25T15:30:00",
+            "statut": "joué",
             "lieu": "STADE DU COSEC 1",
             "lieu_lien_carte": "http://maps.apple.com/?address=31+RUE+EMILE+COMBRES%2C95560+MONTSOULT",
-            "joueurs_a": [],
-            "joueurs_b": []
+            "moments_forts": [
+                {
+                    "type": "changement",
+                    "minute": "12’",
+                    "joueur": "Entrant: BABACAR G., Sortant: AXEL T.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour PARMAIN AC BABACAR G. remplace AXEL T."
+                },
+                {
+                    "type": "changement",
+                    "minute": "46’",
+                    "joueur": "Entrant: ENZO T., Sortant: THEO L.",
+                    "equipe": "domicile",
+                    "description": "Changement pour MONTSOULT BAILLET US ENZO T. remplace THEO L."
+                },
+                {
+                    "type": "changement",
+                    "minute": "49’",
+                    "joueur": "Entrant: ALEXIS A., Sortant: YAZID M.",
+                    "equipe": "domicile",
+                    "description": "Changement pour MONTSOULT BAILLET US ALEXIS A. remplace YAZID M."
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "55’",
+                    "joueur": "MOUSSA C.",
+                    "equipe": "exterieur",
+                    "description": "Avertissement pour PARMAIN AC MOUSSA C. est averti"
+                },
+                {
+                    "type": "changement",
+                    "minute": "55’",
+                    "joueur": "Entrant: LUCA S., Sortant: CLEMENT S.",
+                    "equipe": "domicile",
+                    "description": "Changement pour MONTSOULT BAILLET US LUCA S. remplace CLEMENT S."
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "63’",
+                    "joueur": "BABACAR G.",
+                    "equipe": "exterieur",
+                    "description": "Avertissement pour PARMAIN AC BABACAR G. est averti"
+                },
+                {
+                    "type": "carton_jaune",
+                    "minute": "70’",
+                    "joueur": "EVAN A.",
+                    "equipe": "exterieur",
+                    "description": "Avertissement pour PARMAIN AC EVAN A. est averti"
+                }
+            ],
+            "joueurs_a": [
+                {
+                    "nom": "AMAR T.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "PAUL C.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MATHIS C.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "FLORENT V.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "FLORIAN D.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LUCAS T.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "CLEMENT S.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (55’)"
+                    ]
+                },
+                {
+                    "nom": "THOMAS M.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "THEO L.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (46’)"
+                    ]
+                },
+                {
+                    "nom": "NATHAN S.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "YAZID M.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (49’)"
+                    ]
+                },
+                {
+                    "nom": "ENZO T.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (46’)"
+                    ]
+                },
+                {
+                    "nom": "ALEXIS A.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (49’)"
+                    ]
+                },
+                {
+                    "nom": "LUCA S.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (55’)"
+                    ]
+                }
+            ],
+            "joueurs_b": [
+                {
+                    "nom": "GUILLAUME R.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "EVAN A.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": [
+                        "carton_jaune (70’)"
+                    ]
+                },
+                {
+                    "nom": "ROWAN G.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ALEXIS P.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MOUSSA C.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": [
+                        "carton_jaune (55’)"
+                    ]
+                },
+                {
+                    "nom": "LOUIS M.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LORENZO L.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JEREMY P.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "TIMEO S.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MOHAMED C.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "AXEL T.",
+                    "maillot": "12",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (12’)"
+                    ]
+                },
+                {
+                    "nom": "BABACAR G.",
+                    "maillot": "6",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (12’)",
+                        "carton_jaune (63’)"
+                    ]
+                }
+            ]
         },
         {
             "url": "/competition/match/56532832-parmain-a-c-vaureal-f-c-m",
-            "texte": "DIM 01 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 3 PARMAIN AC 15:00 VAUREAL F. C. M. 3",
+            "texte": "dim 01 nov 2026 - 15h00 Seniors Départemental 4 - Senior Journée 3 PARMAIN AC 15:00 VAUREAL F. C. M. 3",
             "nom_equipe_a": "PARMAIN AC",
             "nom_equipe_b": "VAUREAL F. C. M. 3",
             "score_a": null,

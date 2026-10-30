@@ -1,19 +1,34 @@
 {
     "controle_integrite": {
-        "total_buts_reels": 0,
+        "total_buts_reels": 1,
         "total_buts_admin": 0,
         "total_passes_admin": 0,
-        "alerte_incoherence": false,
-        "message": "Tableau à jour."
+        "alerte_incoherence": true,
+        "message": "ATTENTION : Le total des buts ne correspond pas aux scores FFF (ou trop de passes décisives) !"
     },
     "joueurs": [
+        {
+            "nom": "Alexis P.",
+            "buts": 0,
+            "passes_d": 0
+        },
         {
             "nom": "Axel T.",
             "buts": 0,
             "passes_d": 0
         },
         {
+            "nom": "Babacar G.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
             "nom": "Ethan T.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Evan A.",
             "buts": 0,
             "passes_d": 0
         },
@@ -29,6 +44,11 @@
         },
         {
             "nom": "Jeremy B.",
+            "buts": 0,
+            "passes_d": 0
+        },
+        {
+            "nom": "Jeremy P.",
             "buts": 0,
             "passes_d": 0
         },

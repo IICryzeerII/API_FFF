@@ -257,23 +257,221 @@
         },
         {
             "url": "/competition/match/79756747-parmain-a-c-st-ouen-l-aumone-a-s",
-            "texte": "dim 25 oct 2026 - 14h30 Coupe du Comité Seniors Lestruhaut - Senior Deuxième tour PARMAIN AC 2 14:30 ST OUEN L'AUMONE AS 3",
+            "texte": "dim 25 oct 2026 - 14h30 Coupe du Comité Seniors Lestruhaut - Senior Deuxième tour PARMAIN AC 2023ST OUEN L'AUMONE AS 3",
             "nom_equipe_a": "PARMAIN AC 2",
             "nom_equipe_b": "ST OUEN L'AUMONE AS 3",
-            "score_a": null,
-            "score_b": null,
+            "score_a": 0,
+            "score_b": 23,
             "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC518488.jpg",
-            "statut": "à venir",
-            "date": "2026-10-25T14:30:00",
+            "statut": "joué",
             "lieu": "STADE JACQUES HUNAUT 1",
             "lieu_lien_carte": "http://maps.apple.com/?address=AV+DES+PEUPLIERS%2C95620+PARMAIN",
-            "joueurs_a": [],
-            "joueurs_b": []
+            "moments_forts": [
+                {
+                    "type": "changement",
+                    "minute": "46’",
+                    "joueur": "Entrant: LUCAS B., Sortant: JEAN PAUL D.",
+                    "equipe": "domicile",
+                    "description": "Changement pour PARMAIN AC 2 LUCAS B. remplace JEAN PAUL D."
+                },
+                {
+                    "type": "changement",
+                    "minute": "50’",
+                    "joueur": "Entrant: FREDDY G., Sortant: MAMADOU C.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour ST OUEN L'AUMONE AS 3 FREDDY G. remplace MAMADOU C."
+                },
+                {
+                    "type": "changement",
+                    "minute": "50’",
+                    "joueur": "Entrant: WILLIAM E., Sortant: DJEMAEL V.",
+                    "equipe": "exterieur",
+                    "description": "Changement pour ST OUEN L'AUMONE AS 3 WILLIAM E. remplace DJEMAEL V."
+                }
+            ],
+            "joueurs_a": [
+                {
+                    "nom": "LENY S.",
+                    "maillot": "1",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MATHIS L.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ANIS S.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MOHAMED ALI K.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JEREMY B.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "EVAN B.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MATHIEU B.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ETHAN T.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JEAN PAUL D.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (46’)"
+                    ]
+                },
+                {
+                    "nom": "MAHER Q.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "IMRANE E.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LUCAS B.",
+                    "maillot": "12",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (46’)"
+                    ]
+                },
+                {
+                    "nom": "MOHAMED C.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": []
+                },
+                {
+                    "nom": "MOUSSA C.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": []
+                }
+            ],
+            "joueurs_b": [
+                {
+                    "nom": "DYLAN G.",
+                    "maillot": "2",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "DJEMAEL V.",
+                    "maillot": "3",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (50’)"
+                    ]
+                },
+                {
+                    "nom": "CEDRIC V.",
+                    "maillot": "4",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "DIAKO N.",
+                    "maillot": "5",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "CURTIS D.",
+                    "maillot": "6",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "MAMADOU C.",
+                    "maillot": "7",
+                    "role": "titulaire",
+                    "evenements": [
+                        "Sortie (50’)"
+                    ]
+                },
+                {
+                    "nom": "IBRAHIM K.",
+                    "maillot": "8",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "JEAN CLAUDE S.",
+                    "maillot": "9",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "LUCAS M.",
+                    "maillot": "10",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "ILAN D.",
+                    "maillot": "11",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "SALIMOU C.",
+                    "maillot": "16",
+                    "role": "titulaire",
+                    "evenements": []
+                },
+                {
+                    "nom": "FREDDY G.",
+                    "maillot": "13",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (50’)"
+                    ]
+                },
+                {
+                    "nom": "WILLIAM E.",
+                    "maillot": "14",
+                    "role": "remplacant",
+                    "evenements": [
+                        "Entrée (50’)"
+                    ]
+                }
+            ]
         },
         {
             "url": "/competition/match/78941822-pierrelaye-football-club-parmain-a-c",
-            "texte": "DIM 01 NOV 2026 - 15H00 Seniors Départemental 4 - Senior Journée 3 PIERRELAYE FC 3 15:00 PARMAIN AC 2",
+            "texte": "dim 01 nov 2026 - 16h00 Seniors Départemental 4 - Senior Journée 3 PIERRELAYE FC 3 16:00 PARMAIN AC 2",
             "nom_equipe_a": "PIERRELAYE FC 3",
             "nom_equipe_b": "PARMAIN AC 2",
             "score_a": null,
@@ -281,8 +479,8 @@
             "logo_a": "https://cdn-transverse.azureedge.net/phlogos/BC560812.jpg",
             "logo_b": "https://cdn-transverse.azureedge.net/phlogos/BC530273.jpg",
             "statut": "à venir",
-            "date": "2026-11-01T15:00:00",
-            "lieu": "STADE MUNICIPAL 2",
+            "date": "2026-11-01T16:00:00",
+            "lieu": "STADE MUNICIPAL 1",
             "lieu_lien_carte": "http://maps.apple.com/?address=RUE+DU+GENERAL+DE+GAULLE%2C95480+PIERRELAYE",
             "joueurs_a": [],
             "joueurs_b": []
